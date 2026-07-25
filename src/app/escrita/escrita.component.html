@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-md-12">
+        <label class="form-label">Texto em Fushi</label>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="btn-group btn-group-separators mb-1" role="group">
+                    <button class="btn btn-info" type="button" *ngFor="let ch of caracteres" (click)="inserirCaractere(ch)">{{ ch }}</button>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <textarea class="form-control" rows="8" id="entrada" [(ngModel)]="textoEntrada"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12 text-center">
+        <button class="btn btn-primary" (click)="transcrever()">Transcrever</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <label class="form-label">Resultado</label>
+        <div class="form-control" id="saida" [innerHTML]="textoSaida"></div>
+    </div>
+</div>

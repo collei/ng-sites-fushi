@@ -1,0 +1,702 @@
+<style>
+p, li, div, tr > div { font-size: 18px !important; }
+td, td > div { font-size: 16px !important; }
+li.sample { margin-bottom: 1em; }
+table { border-collapse: collapse; margin: 25px auto; }
+table, tr { border-top: 0.5px solid #444; border-bottom: 0.5px solid #444; }
+.noun { cursor: pointer; color: #0d6efd; }
+.adjective { cursor: pointer; color: #198754; }
+</style>
+
+<h1>Morfologia</h1>
+
+<h2>Substantivos</h2>
+
+<h3>Gêneros</h3>
+<p>Não há gênero gramatical em Fushi.</p>
+
+<h3>Números</h3>
+<p>Substantivos se flexionam em número para singular, plural, dual e trial.</p>
+
+<h4>Singular</h4>
+<p>Não há sufixo, sendo o modo padrão.</p>
+<p>Um substantivo acompanhado de numeral ou quantificador deve permanecer no singular.</p>
+<h4>Plural</h4>
+<p>O substantivo em suas formas singulares recebe um sufixo conforme quadro-resumo abaixo:</p>
+<table width="90%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="15%">Substantivo termina em</th>
+        <th width="15%">Harmonia vocálica</th>
+        <th width="15%">Sufixo/ Transformação</th>
+        <th width="55%">Exemplos</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Consoante</td>
+        <td>Lateral<br>(a/o/u)</td>
+        <td>adicionar -ok</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">hat</span> "chapéu" → hatok</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">bar</span> "barra" → barok</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Frontal<br>(e)</td>
+        <td>adicionar -ek</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">nef</span> "nuvem" → nefek</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">čaner</span> "canal" → čanerek</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Vogal (exceto se terminado em -ra/-ri)</td>
+        <td>(não<br>se<br>aplica)</td>
+        <td>adicionar -ra<br>ou<br>adicionar -k</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">oka</span> "outeiro" → okara / okak</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">baske</span> "cesta" → baskera / baskek</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">siała</span> "selo" → siałara / siałak</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">šinčou</span> "prudência" → šinčoura / šinčouk</div>
+        </td>
+    </tr>
+</table>
+
+<h5>Formas especiais</h5>
+<table width="90%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="20%">Substantivo termina em</th>
+        <th width="20%">Sufixo/ Transformação</th>
+        <th width="60%">Exemplos</th>
+    </tr>
+    <tr>
+        <td>-ra</td>
+        <td>-ra<br>torna-se -ri</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">otokibora</span> "teclado musical" → otokibori</div>
+        </td>
+    </tr>
+    <tr>
+        <td>-ri</td>
+        <td>-ri<br>torna-se -rim</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">apirkotori</span> "beija-flor" → apirkotorim</div>
+        </td>
+    </tr>
+    <tr>
+        <td>-us</td>
+        <td>-us<br>torna-se -i</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">egediyus</span> "exclusividade" → egediyi</div>
+        </td>
+    </tr>
+    <tr>
+        <td>-um<br>-on</td>
+        <td>-um/-on<br>torna-se -a</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">garmentum</span> "decoração" → garmenta</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">leon</span> "canção" → lea</div>
+        </td>
+    </tr>
+</table>
+
+<h4>Dual</h4>
+<p>Conforme quadro-resumo abaixo:</p>
+<table width="90%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="20%">Harmonia vocálica</th>
+        <th width="20%">Sufixo</th>
+        <th width="60%">Exemplos</th>
+    </tr>
+    <tr>
+        <td>Lateral<br>(a/o/u)</td>
+        <td>adicionar -lar</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">hat</span> "chapéu" → hatlar</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">bar</span> "barra" → barlar</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">oka</span> "outeiro" → okalar</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">siała</span> "selo" → siałalar</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Frontal<br>(e)</td>
+        <td>adicionar -ler</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">nef</span> "nuvem" → nefler</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">čaner</span> "canal" → čanerler</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">baske</span> "cesta" → baskeler</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">el</span> "asa" → eller</div>
+        </td>
+    </tr>
+</table>
+
+<h4>Trial</h4>
+<p>Conforme quadro-resumo abaixo:</p>
+<table width="90%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="20%">Harmonia vocálica</th>
+        <th width="20%">Sufixo</th>
+        <th width="60%">Exemplos</th>
+    </tr>
+    <tr>
+        <td>(não se aplica)</td>
+        <td>adicionar -lir</td>
+        <td>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">hat</span> "chapéu" → hatlir</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">bar</span> "barra" → barlir</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">oka</span> "outeiro" → okalir</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">siała</span> "selo" → siałalir</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">nef</span> "nuvem" → neflir</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">čaner</span> "canal" → čanerlir</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">baske</span> "cesta" → baskelir</div>
+            <div><span class="noun" onclick="conjugateNoun(this.innerText)">el</span> "asa" → ellir</div>
+        </td>
+    </tr>
+</table>
+
+<h4>Coletivo</h4>
+<p>Para formar o coletivo, adicione o sufixo <b>-za</b> à forma singular.</p>
+<ul>
+    <li class="sample">
+        <div><i>Sa sołgi eren deri butekinani.</i></div>
+        <div>Três soldados estavam ontem na taverna.</div>
+    </li>
+    <li>
+        <div><i>Ha sołgiza Megiddoni kyo deri gotovicei.</i></div>
+        <div>O exército estava de prontidão hoje em Megido.</div>
+    </li>
+</ul>
+<p>Plurais de substantivos coletivos seguem as mesmas regras.</p>
+
+<h3>Casos</h3>
+<h4>Formas Gerais</h4>
+<p>Substantivos se flexionam em casos: nominativo, acusativo, genitivo, dativo, ablativo, locativo, instrumental, 
+    partitivo, abessivo, comitativo e terminativo.</p>
+<p>Os sufixos de caso são adicionados à forma do nominativo singular. No caso de termos terminados em <i>us</i>, <i>um</i> 
+    ou <i>on</i>, remover a consoante do final e proceder normalmente.</p>
+
+<h5>Nominativo</h5>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> "colega"</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> "alteração"</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> "guerra, peleja"</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> "irmão, confrade"</li>
+</ul>
+
+<h5>Acusativo</h5>
+<p>Adicionar o sufixo <b>-t</b> a substantivo terminado em vogal. Quando terminado em consoante, adicionar <b>-et</b> a 
+    substantivo frontal (última vogal <i>e</i>) ou <b>-at</b> a substantivo lateral (última vogal <i>a</i>/<i>o</i>/<i>u</i>). 
+    A vogal <i>i</i> não é considerada nesta definição. Não havendo outras vogais além de <i>i</i>, considera-se a harmonia 
+    vocálica do substantivo como frontal.
+</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbarat</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutaret</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → haborot</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešviret</li>
+</ul>
+
+<h5>Genitivo</h5>
+<p>Adicionar o sufixo <b>-n</b> a substantivo terminado em vogal. Quando terminado em consoante, adicionar <b>-en</b>.
+</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbaran</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutaren</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → haboren</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešviren</li>
+</ul>
+
+<h5>Dativo</h5>
+<p>Adicionar <b>-nek</b> a substantivo frontal (última vogal <i>e</i>) ou <b>-nak</b> a substantivo lateral 
+    (última vogal <i>a</i>/<i>o</i>/<i>u</i>). A vogal <i>i</i> não é considerada nesta definição.
+</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbaranak</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutarenek</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → habornak</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešvirnek</li>
+</ul>
+
+<h5>Ablativo</h5>
+<p>Adicionar <b>-ker</b> a substantivo frontal (última vogal <i>e</i>) ou <b>-kar</b> a substantivo lateral 
+    (última vogal <i>a</i>/<i>o</i>/<i>u</i>). A vogal <i>i</i> não é considerada nesta definição.
+</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbarakar</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutareker</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → haborkar</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešvirker</li>
+</ul>
+
+<h5>Locativo</h5>
+<p>Adicionar <b>-ni</b> ao substantivo.</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbarani</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutareni</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → haborni</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešvirni</li>
+</ul>
+
+<h5>Instrumental</h5>
+<p>Adicionar <b>-ve</b> ao substantivo.</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbarave</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutareve</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → haborve</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešvirve</li>
+</ul>
+
+<h5>Partitivo</h5>
+<p>Adicionar <b>-no</b> ao substantivo.</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbarano</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutareno</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → haborno</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešvirno</li>
+</ul>
+
+<h5>Abessivo</h5>
+<p>Adicionar <b>-le</b> ao substantivo.</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbarale</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutarele</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → haborle</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešvirle</li>
+</ul>
+
+<h5>Comitativo</h5>
+<p>Adicionar <b>-to</b> ao substantivo.</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbarato</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutareto</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → haborto</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešvirto</li>
+</ul>
+
+<h5>Terminativo</h5>
+<p>Adicionar <b>-ig</b> ao substantivo.</p>
+<ul>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">abbara</span> → abbaraig</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">mutare</span> → mutareig</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">habor</span> → haborig</li>
+    <li><span class="noun" onclick="conjugateNoun(this.innerText)">tešvir</span> → tešvirig</li>
+</ul>
+
+<h4>Formas dos Pronomes</h4>
+<p>Quanto aos pronomes pessoais e demonstratvos, estes apresentarão formas peculiares.</p>
+
+<h5>Pronomes Pessoais</h5>
+<table width="90%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="15%">Casos</th>
+        <th width="85%" colspan="6">Pronomes</th>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Nominativo</th>
+        <td>mi</td>   <td>ti</td>   <td>on</td>   <td>biz</td>   <td>tiz</td>   <td>ok</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Acusativo</th>
+        <td>met</td>   <td>tet</td>   <td>ot</td>   <td>bizt</td>   <td>tizt</td>   <td>okot</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Genitivo</th>
+        <td>mino</td>   <td>tino</td>   <td>onno</td>   <td>bizno</td>   <td>tizno</td>   <td>okono</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Dativo</th>
+        <td>nekem</td>   <td>neked</td>   <td>neki</td>   <td>nekenu</td>   <td>nektek</td>   <td>nekyuk</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Ablativo</th>
+        <td>kerem</td>   <td>kered</td>   <td>keri</td>   <td>kerenu</td>   <td>kertek</td>   <td>keryuk</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Locativo</th>
+        <td>mini</td>   <td>tini</td>   <td>onni</td>   <td>bizni</td>   <td>tizni</td>   <td>okoni</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Instrumental</th>
+        <td>mive</td>   <td>tive</td>   <td>onve</td>   <td>bizve</td>   <td>tizve</td>   <td>okove</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Partitivo</th>
+        <td>mino</td>   <td>tino</td>   <td>onno</td>   <td>bizno</td>   <td>tizno</td>   <td>okono</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Abessivo</th>
+        <td>mile</td>   <td>tile</td>   <td>onle</td>   <td>bizle</td>   <td>tizle</td>   <td>okole</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Comitativo</th>
+        <td>mito</td>   <td>tito</td>   <td>onto</td>   <td>bizto</td>   <td>tizto</td>   <td>okoto</td>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Terminativo</th>
+        <td>milig</td>   <td>tilig</td>   <td>onig</td>   <td>bizig</td>   <td>tizig</td>   <td>okkig</td>
+    </tr>
+</table>
+
+<h5>Demonstrativos</h5>
+<table width="75%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="15%">Casos</th>
+        <th width="85%" colspan="6">Demonstrativos</th>
+    </tr>
+    <tr class="text-center">
+        <th class="text-start">Nominativo</th>
+        <td>kon</td>   <td>son</td>   <td>an</td>   <td>don</td>
+    </tr>
+</table>
+
+<h2>Verbos</h2>
+<p>Em suas formas finitas, distinguem em tempo (não-passado ou <i>imperfeito</i>, passado ou <i>perfeito</i>), pessoa, modo e 
+    voz, além da natureza do objeto direto, i.e., se este está <i>definido</i> ou <i>indefinido</i> no contexto.</p>
+
+<h3>Formas Finitas</h3>
+<p>Observe que, em quase todas as formas de natureza definida, há dois sufixos distintos, segundo a harmonia vocálica da raiz 
+    do verbo (a parte que resta após retirar a terminação do infinitivo <i>-da</i></i>). Nestes casos, a primeira usa-se com 
+    raízes laterais (a/o/u) e a segunda, com raízes frontais (e).</p>
+<table width="90%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="15%" rowspan="3">Tempo</th>
+        <th width="15%" rowspan="3">Raiz termina em...</th>
+        <th width="15%" rowspan="3">Pessoa</th>
+        <th width="55%" colspan="4">Natureza do objeto direto</th>
+    </tr>
+    <tr>
+        <th width="27.5%" colspan="2">Indefinido</th>
+        <th width="27.5%" colspan="2">Definido</th>
+    </tr>
+    <tr>
+        <th width="13.75%">Sing.</th>
+        <th width="13.75%">Pl.</th>
+        <th width="13.75%">Sing.</th>
+        <th width="13.75%">Pl.</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Não-passado<br>(imperfeito)</td>
+        <td>Vogal</td>
+        <td>
+            <div>1ª</div>
+            <div>2ª</div>
+            <div>3ª</div>
+        </td>
+        <td class="fst-italic">
+            <div>-yu</div>
+            <div>-š</div>
+            <div>-î</div>
+        </td>
+        <td class="fst-italic">
+            <div>-me</div>
+            <div>-te</div>
+            <div>-ch</div>
+        </td>
+        <td class="fst-italic">
+            <div>-yom / -yem</div>
+            <div>-yod / -yed</div>
+            <div>-yaî / -yeî</div>
+        </td>
+        <td class="fst-italic">
+            <div>-înu</div>
+            <div>-îtok / -îtek</div>
+            <div>-yuk</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Consoante</td>
+        <td>
+            <div>1ª</div>
+            <div>2ª</div>
+            <div>3ª</div>
+        </td>
+        <td class="fst-italic">
+            <div>-u</div>
+            <div>-iš</div>
+            <div>-i</div>
+        </td>
+        <td class="fst-italic">
+            <div>-me</div>
+            <div>-te</div>
+            <div>-ech</div>
+        </td>
+        <td class="fst-italic">
+            <div>-yom / -yem</div>
+            <div>-yod / -yed</div>
+            <div>-yaî / -yeî</div>
+        </td>
+        <td class="fst-italic">
+            <div>-nu</div>
+            <div>-tok / -tek</div>
+            <div>-yuk</div>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">Passado<br>(perfeito)</td>
+        <td>Vogal</td>
+        <td>
+            <div>1ª</div>
+            <div>2ª</div>
+            <div>3ª</div>
+        </td>
+        <td class="fst-italic">
+            <div>-tu</div>
+            <div>-tiš</div>
+            <div>-ti</div>
+        </td>
+        <td class="fst-italic">
+            <div>-time</div>
+            <div>-tte</div>
+            <div>-tech</div>
+        </td>
+        <td class="fst-italic">
+            <div>-tom / -tem</div>
+            <div>-tod / -ted</div>
+            <div>-taî / -teî</div>
+        </td>
+        <td class="fst-italic">
+            <div>-tonu / -tenu</div>
+            <div>-ttok / -ttek</div>
+            <div>-tuk</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Consoante</td>
+        <td>
+            <div>1ª</div>
+            <div>2ª</div>
+            <div>3ª</div>
+        </td>
+        <td class="fst-italic">
+            <div>-tu</div>
+            <div>-tiš</div>
+            <div>-ti</div>
+        </td>
+        <td class="fst-italic">
+            <div>-time</div>
+            <div>-tite</div>
+            <div>-tech</div>
+        </td>
+        <td class="fst-italic">
+            <div>-tom / -tem</div>
+            <div>-tod / -ted</div>
+            <div>-taî / -teî</div>
+        </td>
+        <td class="fst-italic">
+            <div>-tonu / -tenu</div>
+            <div>-totok / -titek</div>
+            <div>-tuk</div>
+        </td>
+    </tr>
+</table>
+<p>As formas acima descrevem a voz ativa (padrão). As desinências de voz são acrescidas após a formação das formas finitas, 
+    conforme quadro-resumo abaixo:</p>
+<table width="50%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="40%" rowspan="2">Forma verbal termina em...</th>
+        <th width="60%" colspan="3">Voz</th>
+    </tr>
+    <tr>
+        <th width="20%">Ativa</th>
+        <th width="20%">Passiva</th>
+        <th width="20%">Média</th>
+    </tr>
+    <tr>
+        <td>Consoante</td>
+        <td class="fst-italic">&mdash;</td>
+        <td class="fst-italic">-i</td>
+        <td class="fst-italic">-or / -er</td>
+    </tr>
+    <tr>
+        <td>Vogal</td>
+        <td class="fst-italic">&mdash;</td>
+        <td class="fst-italic">-ri</td>
+        <td class="fst-italic">-ror / -rer</td>
+    </tr>
+</table>
+<p>As formas da voz média seguem a harmonia vocálica, tais quais as formas finitas.</p>
+
+<h3>Formas do Imperativo</h3>
+<p>Observe que algumas formas possuem dois sufixos distintos, segundo a harmonia vocálica da raiz do verbo (a parte que resta 
+    após retirar a terminação do infinitivo <i>-da</i></i>). Nestes casos, a primeira usa-se com raízes laterais (a/o/u) 
+    e a segunda, com raízes frontais (e).</p>
+<table width="70%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="20%" rowspan="2">Raiz termina em...</th>
+        <th width="20%" rowspan="2">Pessoa</th>
+        <th width="60%" colspan="2">Natureza do objeto direto</th>
+    </tr>
+    <tr>
+        <th width="30%">Indefinido</th>
+        <th width="30%">Definido</th>
+    </tr>
+    <tr>
+        <td>Vogal</td>
+        <td>
+            <div>2ª Sing.</div>
+            <div>1ª Pl.</div>
+            <div>2ª Pl.</div>
+        </td>
+        <td class="fst-italic">
+            <div>-h</div>
+            <div>-mah</div>
+            <div>-lah</div>
+        </td>
+        <td class="fst-italic">
+            <div>-d</div>
+            <div>-donu / -denu</div>
+            <div>-dotu / -detu</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Consoante</td>
+        <td>
+            <div>2ª Sing.</div>
+            <div>1ª Pl.</div>
+            <div>2ª Pl.</div>
+        </td>
+        <td class="fst-italic">
+            <div>-h</div>
+            <div>-mah</div>
+            <div>-lah</div>
+        </td>
+        <td class="fst-italic">
+            <div>-d</div>
+            <div>-donu / -denu</div>
+            <div>-dotu / -detu</div>
+        </td>
+    </tr>
+</table>
+
+<h3>Formas do Particípio</h3>
+<p>Observe que algumas formas possuem dois sufixos distintos, segundo a harmonia vocálica da raiz do verbo (a parte que resta 
+    após retirar a terminação do infinitivo <i>-da</i></i>). Nestes casos, a primeira usa-se com raízes laterais (a/o/u) 
+    e a segunda, com raízes frontais (e).</p>
+<table width="70%" class="text-center" style="border-collapse: collapse;">
+    <tr>
+        <th width="20%" rowspan="2">Raiz termina em...</th>
+        <th width="20%" rowspan="2">Voz</th>
+        <th width="60%" colspan="2">Tempo</th>
+    </tr>
+    <tr>
+        <th width="30%">Imperfeito</th>
+        <th width="30%">Perfeito</th>
+    </tr>
+    <tr>
+        <td>Vogal</td>
+        <td>
+            <div>Ativa</div>
+            <div>Passiva</div>
+            <div>Média</div>
+        </td>
+        <td class="fst-italic">
+            <div>-gor</div>
+            <div>-vor</div>
+            <div>-łor</div>
+        </td>
+        <td class="fst-italic">
+            <div>-łmi</div>
+            <div>-vti</div>
+            <div>-łbi</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Consoante</td>
+        <td>
+            <div>Ativa</div>
+            <div>Passiva</div>
+            <div>Média</div>
+        </td>
+        <td class="fst-italic">
+            <div>-ugor / -igor</div>
+            <div>-avor / -evor</div>
+            <div>-ołor / -iłor</div>
+        </td>
+        <td class="fst-italic">
+            <div>-ałmi / -ełmi</div>
+            <div>-avti / -evti</div>
+            <div>-ołbi / -ełbi</div>
+        </td>
+    </tr>
+</table>
+
+<h2>Adjetivos</h2>
+<p>Qualificadores que, em Fushi, podem assumir formas para refletir tempo, grau e a distinção afirmativo/negativo.</p>
+
+<h3>Graus do Adjetivo</h3>
+<p>Quanto aos graus, estes são: absoluto, comparativo, superlativo e equitativo.</p>
+
+<h4>Absoluto</h4>
+<p>A forma padrão normal representa o grau absoluto afirmativo no tempo não-passado, normalmente terminado em <i>-i</i>, 
+    por exemplo, <span class="adjective" onclick="conjugateAdjective(this.innerText)">muyai</span> "úmido" e 
+    <span class="adjective" onclick="conjugateAdjective(this.innerText)">agati</span> "agradável; excelente; distinto".</p>
+<ul>
+    <li class="sample">
+        <div><i>Penacony da agati gastinca.</i></div>
+        <div>O Penacony é um hotel distinto.</div>
+    </li>
+    <li>
+        <div><i>Hazar! Kič pizo da muyai!</i></div>
+        <div>Perigo! O piso da cozinha está molhado!</div>
+    </li>
+</ul>
+<p>Alguns não terminam em <i>-i</i>, como <span class="adjective" onclick="conjugateAdjective(this.innerText)">kiš</span> "pequeno" 
+    e <span class="adjective" onclick="conjugateAdjective(this.innerText)">nag</span> "grande".</p>
+
+<h4>Comparativo</h4>
+<p>Grau de comparação entre dois seres quaisquer e em termos de maior ou menor.</p>
+<p>Há basicamente duas formas de utilizá-la. A primeira consiste em marcar com o caso acusativo o termo de referência 
+    e pondo o qualificador ao fim, antecedido de <i>mol</i> (mais...que) ou <i>leî</i> (menos...que).</p>
+<ul>
+    <li class="sample">
+        <div><i>Empire State epul da Burj Khalifa-<u>t</u> <b>leî haruigar</b>.</i></div>
+        <div>O Empire State Building <b>é menos alto</b> que o Burj Khalifa.</div>
+    </li>
+    <li>
+        <div><i>Burj Khalifa da Empire State epul<u>t</u> <b>mol haruigar</b>.</i></div>
+        <div>O Burj Khalifa <b>é mais alto</b> que o Empire State Building.</div>
+    </li>
+</ul>
+<p>A outra forma utiliza o adjetivo entre os termos comparados, marcando o antecedente com o partitivo. Nessa forma, o termo 
+    indicando o maior entre ambos é o antecedido pelo adjetivo.</p>
+<ul>
+    <li class="sample">
+        <div><i>Empire State epul<u>no</u> <b>haruigar</b> Burj Khalifa.</i></div>
+        <div>O Burj Khalifa <b>é mais alto</b> <u>que</u> o Empire State Building.</div>
+    </li>
+    <li>
+        <div><i>Burj Khalifa-<u>no</u> <b>solidiar</b> Empire State epult.</i></div>
+        <div>O Empire State Building <b>é mais sólido</b> <u>que</u> o Burj Khalifa.</div>
+    </li>
+</ul>
+
+<h4>Superlativo</h4>
+<p>Indica o grau máximo de uma qualidade ou característica, seja em relação a um coletivo ou domínio de existência, seja 
+    de forma absoluta. Se indicado, o termo referente ao coletivo ou domínio de existência deve ser marcado no caso 
+    partitivo.</p>
+<ul>
+    <li class="sample">
+        <div><i>Ha <b>manoviar</b> keňe da neked.</i></div>
+        <div>O <b>mais novo</b> livro é para ti.</div>
+        <div>O <b>novíssimo</b> livro é para ti.</div>
+    </li>
+    <li>
+        <div><i>Se <u>kenutara<b>no</b></u> <b>manoviar</b> keňe da neked.</i></div>
+        <div>O <b>mais novo</b> livro <u>dessa biblioteca</u> é para ti.</div>
+    </li>
+</ul>
+
+<h4>Equitativo</h4>
+<p>Grau de igualidade ou equiparação de um ser com outro, tomado como referência.</p>
+<ul>
+    <li class="sample">
+        <div><i>Abakatutir<u>no</u> <b>midoridir</b> mangotir.</i></div>
+        <div>A mangueira <b>é tão verde quanto</b> o abacateiro.</div>
+    </li>
+    <li class="sample">
+        <div><i>Fiu rasa<u>no</u> abakatutir da <b>midoridir</b>.</i></div>
+        <div>O abacateiro <b>está tão verde quanto</b> a relva do campo.</div>
+    </li>
+    <li>
+        <div><i>Bari yade<u>no</u> <b>rozaidir</b> sakura.</i></div>
+        <div>A cerejeira <b>rósea como</b> o jardim das rosas.</div>
+    </li>
+</ul>

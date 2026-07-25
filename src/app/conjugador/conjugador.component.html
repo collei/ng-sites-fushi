@@ -1,0 +1,310 @@
+<div class="content">
+	<div class="content-head">
+		<div class="row mt-1 mb-4">
+			<div class="col-md-5">
+				<input class="form-control" name="termo" id="conjugadorTermo" [(ngModel)]="tabela.termo" (change)="conjugarAgora()">
+			</div>
+			<div class="col-md-4">
+				<select class="form-select" name="tipo" id="conjugadorTipo" [(ngModel)]="tabela.tipo" (change)="conjugarAgora()">
+					<option value="verb">Verbo</option>
+					<option value="noun">Substantivo</option>
+					<option value="adjective">Adjetivo</option>
+				</select>
+			</div>
+			<div class="col-md-3 text-end">
+				<button class="btn btn-info" type="button" (click)="limparConjugacao()">Limpar</button>
+			</div>
+		</div>
+	</div>
+	<div class="content-main">
+		<div class="row" *ngIf="'verb' === tabela.tipo">
+			<div class="col-md-12">
+				<h3><span class="text-danger">{{ tabela.termo }}</span> | <i class="smalle">verbo</i></h3>
+			</div>
+			
+			<div class="col-md-12" *ngFor="let voz of getVozes()">
+				<h5 class="text-end">Voz {{ voz.nome }}</h5>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th colspan="2">&loz; IMPERFEITO</th>
+						</tr>
+						<tr>
+							<th width="50%">Indefinite</th>
+							<th width="50%">Definite</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<div *ngFor="let f of getFiniteItens('imperfect','indefinite',voz.tipo)">
+									<span class="detalhe-verb" *ngFor="let clas of ['stem','tense','person','voice']; index as ix">
+										<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+									</span>
+								</div>
+							</td>
+							<td>
+								<div *ngFor="let f of getFiniteItens('imperfect','definite',voz.tipo)">
+									<span class="detalhe-verb" *ngFor="let clas of ['stem','tense','person','voice']; index as ix">
+										<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+									</span>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th colspan="2">&loz; PERFEITO</th>
+						</tr>
+						<tr>
+							<th width="50%">Indefinite</th>
+							<th width="50%">Definite</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<div *ngFor="let f of getFiniteItens('perfect','indefinite',voz.tipo)">
+									<span class="detalhe-verb" *ngFor="let clas of ['stem','tense','person','voice']; index as ix">
+										<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+									</span>
+								</div>
+							</td>
+							<td>
+								<div *ngFor="let f of getFiniteItens('perfect','definite',voz.tipo)">
+									<span class="detalhe-verb" *ngFor="let clas of ['stem','tense','person','voice']; index as ix">
+										<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+									</span>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col-md-12">
+				<h5 class="text-end">Modo Imperativo</h5>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th width="50%">Indefinite</th>
+							<th width="50%">Definite</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<div *ngFor="let f of getImperativeItens('indefinite')">
+									<div *ngIf="f.forma!==''">
+										<span class="detalhe-verb" *ngFor="let clas of ['stem','person']; index as ix">
+											<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+										</span>
+									</div>
+									<div *ngIf="f.forma===''"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &mdash;</div>
+								</div>
+							</td>
+							<td>
+								<div *ngFor="let f of getImperativeItens('definite')">
+									<div *ngIf="f.forma!==''">
+										<span class="detalhe-verb" *ngFor="let clas of ['stem','person']; index as ix">
+											<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+										</span>
+									</div>
+									<div *ngIf="f.forma===''"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &mdash;</div>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col-md-12">
+				<h5 class="text-end">Particípio</h5>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th width="20%">&nbsp;</th>
+							<th width="40%">Imperfeito</th>
+							<th width="40%">Perfeito</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<div *ngFor="let voz of getVozes()"><b>{{ voz.participio }}</b></div>
+							</td>
+							<td>
+								<div *ngFor="let f of getParticipleItens('imperfect')">
+									<span class="detalhe-verb" *ngFor="let clas of ['stem','voice']; index as ix">
+										<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+									</span>
+								</div>
+							</td>
+							<td>
+								<div *ngFor="let f of getParticipleItens('perfect')">
+									<span class="detalhe-verb" *ngFor="let clas of ['stem','voice']; index as ix">
+										<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+									</span>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="row" *ngIf="'adjective' === tabela.tipo">
+			<div class="col-md-12">
+				<h3><span class="text-success">{{ tabela.termo }}</span> | <i class="smalle">adjetivo</i></h3>
+			</div>
+
+			<div class="col-md-12">
+				<h5 class="text-end">Imperfeito</h5>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th width="25%">&nbsp;</th>
+							<th width="37.5%">Afirmativo</th>
+							<th width="37.5%">Negativo</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let grau of getGraus()">
+							<td><b>{{ grau.nome }}</b></td>
+							<td *ngFor="let f of getFlexoesAdjetivo('imperfect','positive',grau.tipo)">
+								<span class="detalhe-adj" *ngFor="let clas of ['grade','stem','neg','tense','grade']; index as ix">
+									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+								</span>
+							</td>
+							<td *ngFor="let f of getFlexoesAdjetivo('imperfect','negative',grau.tipo)">
+								<span class="detalhe-adj" *ngFor="let clas of ['grade','stem','neg','tense','grade']; index as ix">
+									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col-md-12">
+				<h5 class="text-end">Perfeito</h5>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th width="25%">&nbsp;</th>
+							<th width="37.5%">Afirmativo</th>
+							<th width="37.5%">Negativo</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let grau of getGraus()">
+							<td><b>{{ grau.nome }}</b></td>
+							<td *ngFor="let f of getFlexoesAdjetivo('perfect','positive',grau.tipo)">
+								<span class="detalhe-adj" *ngFor="let clas of ['grade','stem','neg','tense','grade']; index as ix">
+									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+								</span>
+							</td>
+							<td *ngFor="let f of getFlexoesAdjetivo('perfect','negative',grau.tipo)">
+								<span class="detalhe-adj" *ngFor="let clas of ['grade','stem','neg','tense','grade']; index as ix">
+									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="row" *ngIf="'noun' === tabela.tipo">
+			<div class="col-md-12">
+				<h3><span class="text-primary">{{ tabela.termo }}</span> | <i class="smalle">substantivo</i></h3>
+			</div>
+
+			<div class="col-md-12">
+				<h5 class="text-end">Declinação</h5>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th width="25%">&nbsp;</th>
+							<th width="37.5%">Singular</th>
+							<th width="37.5%">Plural</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let caso of getCasos()">
+							<td><b>{{ caso.nome }}</b></td>
+							<td *ngFor="let f of getDeclinacoes(caso.tipo, ['singular','plural'])">
+								<span class="detalhe-noun" *ngFor="let clas of ['stem','case','number']; index as ix">
+									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th width="25%">&nbsp;</th>
+							<th width="37.5%">Dual</th>
+							<th width="37.5%">Trial</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let caso of getCasos()">
+							<td><b>{{ caso.nome }}</b></td>
+							<td *ngFor="let f of getDeclinacoes(caso.tipo, ['dual','trial'])">
+								<span class="detalhe-noun" *ngFor="let clas of ['stem','case','number']; index as ix">
+									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col-md-12">
+				<h5 class="text-end">Possessivos Pessoais</h5>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th width="25%">&nbsp;</th>
+							<th width="37.5%">Singular</th>
+							<th width="37.5%">Plural</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let pessoa of ['mi','ti','on','biz','tiz','onk']">
+							<td><b>{{ pessoa }}</b></td>
+							<td *ngFor="let f of getPossessivos(pessoa, ['singular','plural'])">
+								<span class="detalhe-noun" *ngFor="let clas of ['stem','case']; index as ix">
+									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="table table-sm">
+					<thead>
+						<tr>
+							<th width="25%">&nbsp;</th>
+							<th width="37.5%">Dual</th>
+							<th width="37.5%">Trial</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let pessoa of ['mi','ti','on','biz','tiz','onk']">
+							<td><b>{{ pessoa }}</b></td>
+							<td *ngFor="let f of getPossessivos(pessoa, ['dual','trial'])">
+								<span class="detalhe-noun" *ngFor="let clas of ['stem','case']; index as ix">
+									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

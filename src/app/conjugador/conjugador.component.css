@@ -1,0 +1,24 @@
+.smalle {
+	font-size: 75% !important;
+	font-weight: 300;
+}
+td, th {
+	font-size: 125%;
+}
+.content { height: 80vh !important; }
+.content .content-main {
+	width: 100%;
+	overflow-x: hidden !important;
+}
+.detalhe-adj, .detalhe-noun, .detalhe-verb { letter-spacing: 0.05rem; }
+.detalhe-adj .stem { color: #000 }
+.detalhe-adj .neg { color: #a00; font-style: italic; }
+.detalhe-adj .tense { color: #c60; font-style: italic; }
+.detalhe-adj .grade { color: #06f; font-style: italic; }
+.detalhe-noun .stem { color: #000 }
+.detalhe-noun .case { color: #a00; font-style: italic; }
+.detalhe-noun .number { color: #06f; font-style: italic; }
+.detalhe-verb .stem { color: #000 }
+.detalhe-verb .tense { color: #a00; font-style: italic; }
+.detalhe-verb .person { color: #06f; font-style: italic; }
+.detalhe-verb .voice { color: #c60; font-style: italic; }

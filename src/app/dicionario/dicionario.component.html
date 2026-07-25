@@ -1,0 +1,86 @@
+<div class="content">
+	<div class="content-head">
+		<div class="row bg-info text-black" *ngIf="'fushi' === dic_lingua">
+			<div class="col-md-12 mt-1">
+				<h3>{{ dic_letra.toUpperCase() }}</h3>
+			</div>
+		</div>
+		<div class="row bg-success text-white" *ngIf="'portuguese' === dic_lingua">
+			<div class="col-md-12 mt-1">
+				<h3>{{ dic_letra.toUpperCase() }}</h3>
+			</div>
+		</div>
+	</div>	
+	<div class="content-main mt-2">
+		<div class="row" *ngIf="'fushi' === dic_lingua">
+			<div class="col-md-12 entrada" *ngFor="let ent of dic_secao" id="{{ ent.entry }}">
+				<b *ngIf="ent.pos === 'verb'" class="linque text-danger" (click)="conjugar(ent.entry, 'verb')">{{ ent.entry }}</b>
+				<b *ngIf="ent.pos === 'noun'" class="linque text-primary" (click)="conjugar(ent.entry, 'noun')">{{ ent.entry }}</b>
+				<b *ngIf="ent.pos === 'adjective'" class="linque text-success" (click)="conjugar(ent.entry, 'adjective')">{{ ent.entry }}</b>
+				<b *ngIf="['verb','noun','adjective'].includes(ent.pos) !== true">{{ ent.entry }}</b>
+				&nbsp;
+				<span class="silabas">[{{ ent.syllables }}]</span>
+				&nbsp;
+				<i>{{ ent.pos }}</i>
+				&nbsp;
+				<span *ngFor="let mean of ent.meaning; let ultimo = last">
+					{{ mean }}<span *ngIf="ultimo === false">, </span>
+				</span>
+				&nbsp;
+				<span *ngFor="let samp of ent.sample">
+					<br>&bull;&nbsp;<b>{{ samp.sample }}</b>&nbsp;::
+					<span>{{ samp.translate }}</span>
+				</span>
+			</div>
+		</div>
+		<div class="row" *ngIf="'portuguese' === dic_lingua">
+			<div class="col-md-12 entrada" *ngFor="let ent of dic_secao" id="{{ ent.entry }}">
+				<b>{{ ent.entry }}</b>
+				&nbsp;
+				<i>{{ ent.pos }}</i>
+				&nbsp;
+				<span *ngFor="let mean of ent.meanings; let ultimo = last">
+					<span *ngIf="ent.pos === 'v.'"><span class="linque text-danger" (click)="conjugar(mean, 'verb')">{{ mean }}</span><span *ngIf="ultimo === false">, </span></span>
+					<span *ngIf="ent.pos === 'n.'"><span class="linque text-primary" (click)="conjugar(mean, 'noun')">{{ mean }}</span><span *ngIf="ultimo === false">, </span></span>
+					<span *ngIf="ent.pos === 'adj.'"><span class="linque text-success" (click)="conjugar(mean, 'adjective')">{{ mean }}</span><span *ngIf="ultimo === false">, </span></span>
+					<span *ngIf="['v.','n.','adj.'].includes(ent.pos) !== true">{{ mean }}<span *ngIf="ultimo === false">, </span></span>
+				</span>
+			</div>
+		</div>
+		<div class="row" *ngIf="'search' === dic_lingua">
+			<h4><hr>Fushi → Portuguese<hr></h4>
+			<div class="col-md-12 entrada" *ngFor="let ent of dic_search_results.fushi" id="{{ ent.entry }}">
+				<b *ngIf="ent.pos === 'verb'" class="linque text-danger" (click)="conjugar(ent.entry, 'verb')">{{ ent.entry }}</b>
+				<b *ngIf="ent.pos === 'noun'" class="linque text-primary" (click)="conjugar(ent.entry, 'noun')">{{ ent.entry }}</b>
+				<b *ngIf="ent.pos === 'adjective'" class="linque text-success" (click)="conjugar(ent.entry, 'adjective')">{{ ent.entry }}</b>
+				<b *ngIf="['verb','noun','adjective'].includes(ent.pos) !== true">{{ ent.entry }}</b>
+				&nbsp;
+				<span class="silabas">[{{ ent.syllables }}]</span>
+				&nbsp;
+				<i>{{ ent.pos }}</i>
+				&nbsp;
+				<span *ngFor="let mean of ent.meaning; let ultimo = last">
+					{{ mean }}<span *ngIf="ultimo === false">, </span>
+				</span>
+				&nbsp;
+				<span *ngFor="let samp of ent.sample">
+					<br>&bull;&nbsp;<b>{{ samp.sample }}</b>&nbsp;::
+					<span>{{ samp.translate }}</span>
+				</span>
+			</div>
+			<h4><hr>Portuguese → Fushi<hr></h4>
+			<div class="col-md-12 entrada" *ngFor="let ent of dic_search_results.portuguese" id="{{ ent.entry }}">
+				<b>{{ ent.entry }}</b>
+				&nbsp;
+				<i>{{ ent.pos }}</i>
+				&nbsp;
+				<span *ngFor="let mean of ent.meanings; let ultimo = last">
+					<span *ngIf="ent.pos === 'v.'"><span class="linque text-danger" (click)="conjugar(mean, 'verb')">{{ mean }}</span><span *ngIf="ultimo === false">, </span></span>
+					<span *ngIf="ent.pos === 'n.'"><span class="linque text-primary" (click)="conjugar(mean, 'noun')">{{ mean }}</span><span *ngIf="ultimo === false">, </span></span>
+					<span *ngIf="ent.pos === 'adj.'"><span class="linque text-success" (click)="conjugar(mean, 'adjective')">{{ mean }}</span><span *ngIf="ultimo === false">, </span></span>
+					<span *ngIf="['v.','n.','adj.'].includes(ent.pos) !== true">{{ mean }}<span *ngIf="ultimo === false">, </span></span>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>

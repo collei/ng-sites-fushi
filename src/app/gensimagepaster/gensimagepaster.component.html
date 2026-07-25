@@ -1,0 +1,5 @@
+<div id="{{ id }}" class="gens-image-input" data-state="empty">
+	<textarea name="{{ name }}" class="form-control" (paste)="handlePaste($event)">{{ value }}</textarea>
+    <img src="{{ value }}">
+    <button class="btn btn-danger text-white {{ buttonPosition }}" (click)="removeImage($event)">🗑</button>
+</div>

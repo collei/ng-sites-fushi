@@ -1,0 +1,9 @@
+.entrada { padding-left: 46px; text-indent: -32px; }
+.silabas { opacity: 0.7; }
+.linque { cursor: pointer; }
+.row { font-size: 125%; }
+.content { height: 80vh !important; }
+.content .content-main {
+	width: 100%;
+	overflow-x: hidden !important;
+}

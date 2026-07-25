@@ -1,0 +1,16 @@
+#entrada {
+    height: 12em;
+    font-size: 20px;
+}
+#saida {
+    min-height: 12em;
+    line-height: 60px;
+    font-size: 20px;
+}
+.form-label { font-size: 20px; }
+.btn-group-separators > .btn {
+    margin-left: 0 !important;
+}
+.btn-group-separators > .btn:not(:last-child) {
+    margin-right: 1px;
+}

@@ -1,0 +1,50 @@
+[
+	{
+		"id": "syntax",
+		"type": "content",
+		"topic": "grammar",
+		"label": "Sintaxe",
+		"link": "grammar/syntax",
+		"asset": "assets/html/syntax.html"
+	},
+	{
+		"id": "morphology",
+		"type": "content",
+		"topic": "grammar",
+		"label": "Morfologia",
+		"link": "grammar/morphology",
+		"asset": "assets/html/morphology.html"
+	},
+	{
+		"id": "phonology",
+		"type": "content",
+		"topic": "grammar",
+		"label": "Fonologia",
+		"link": "grammar/phonology",
+		"asset": "assets/html/phonology.html"
+	},
+	{
+		"id": "writing",
+		"type": "applet",
+		"topic": "writing",
+		"label": "Escrita",
+		"link": "writing",
+		"asset": false
+	},
+	{
+		"id": "numbers",
+		"type": "content",
+		"topic": "writing",
+		"label": "Numeração",
+		"link": "contents/numbers",
+		"asset": "assets/html/numbers.html"
+	},
+	{
+		"id": "conlangfeud",
+		"type": "content",
+		"topic": "other",
+		"label": "Rinha de Conlangs",
+		"link": "contents/conlangfeud",
+		"asset": "assets/html/conlangfeud.html"
+	}
+]
