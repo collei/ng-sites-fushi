@@ -21,8 +21,14 @@ export class Searcher {
         for (let i = 0; i < this.__data.length; i++) {
             let dat = this.__data[i];
             for (let key in dat) {
-                if (key.indexOf(tt) >= 0) {
+                if (key == tt) {
                     doms.push({ index: i, k: key, v: dat[key], relevance: 4 });
+                } else if ((new RegExp('\\b'+tt+'\\b','gi')).test(key)) {
+                    doms.push({ index: i, k: key, v: dat[key], relevance: 3 });
+                } else if ((new RegExp('\\b'+tt,'gi')).test(key)) {
+                    doms.push({ index: i, k: key, v: dat[key], relevance: 2 });
+                } else if (key.indexOf(tt) > 0) {
+                    doms.push({ index: i, k: key, v: dat[key], relevance: 1 });
                 } else {
                     let rel = deepSearch(tt, dat[key]);
                     if (rel > 0) {
@@ -96,7 +102,9 @@ function deepSearch(term: string, data: any): number {
         }
 
         // just containing the term coincindentally... or not
-        return (data.indexOf(term) > 0 ? 1 : 0);
+        let pos = data.indexOf(term);
+
+        return ((pos == 0) ? 2 : ((pos > 0) ? 1 : 0));
     } else if (data && (data == term)) {
         return 4;
     }
