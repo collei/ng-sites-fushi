@@ -28,10 +28,6 @@
 .toolbar #youtube-logo:hover { opacity: 0.8; }
 .content { margin: 22px auto 32px; padding: 0 16px; }
 .fixed-left {
-	width: 300px; /* Set your desired fixed width */
-	flex: none;   /* Prevents flexbox from shrinking or growing */
-}
-.fixed-right {
-	width: 500px; /* Set your desired fixed width */
+	width: 520px; /* Set your desired fixed width */
 	flex: none;   /* Prevents flexbox from shrinking or growing */
 }

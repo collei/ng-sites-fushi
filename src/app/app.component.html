@@ -24,13 +24,16 @@
 <div class="content" role="main">
 	<div class="row">
 		<div class="fixed-left">
-			<app-indice></app-indice>
+			<div class="row">
+				<app-indice></app-indice>
+			</div>
+			<div class="row mt-4">
+				<h5>Conjugador/Declinador</h5>
+				<app-conjugador></app-conjugador>
+			</div>
 		</div>
 		<div class="col">
 			<router-outlet></router-outlet>
-		</div>
-		<div class="fixed-right">
-			<app-conjugador></app-conjugador>
 		</div>
 	</div>
 </div>
