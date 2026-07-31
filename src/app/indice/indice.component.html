@@ -7,18 +7,18 @@
 	</div>
 </div>
 
-<div class="row mt-4">
+<div class="row mt-4 px-2">
 	<h5>Fushi-Português</h5>
-	<div class="col-auto mb-1" *ngFor="let letra of indice_fushi">
+	<div class="col-auto mb-1 px-1" *ngFor="let letra of indice_fushi">
 		<a class="btn btn-sm btn-info letra-dicionario" routerLink="dic/fushi/{{ letra }}">
 			{{ letra.toUpperCase() }}
 		</a>
 	</div>
 </div>
 
-<div class="row mt-4">
+<div class="row mt-4 px-2">
 	<h5>Português-Fushi</h5>
-	<div class="col-auto mb-1" *ngFor="let letra of indice_portuguese">
+	<div class="col-auto mb-1 px-1" *ngFor="let letra of indice_portuguese">
 		<a class="btn btn-sm btn-success letra-dicionario" routerLink="dic/portuguese/{{ letra }}">
 			{{ letra.toUpperCase() }}
 		</a>
@@ -27,24 +27,24 @@
 
 <div class="row mt-4">
 	<h5>Tópicos</h5>
-	<div class="col" style="padding: 0 0 0 24px !important;">
+	<div class="col" style="padding: 0 32px 0 18px !important;">
 		<div class="row">
 			<div class="col-4">
-				<div class="row mb-2 align-top" *ngFor="let botao of getTopico('grammar')">
+				<div class="row mb-2 px-1 align-top" *ngFor="let botao of getTopico('grammar')">
 					<a class="btn btn-sm btn-primary topico" routerLink="{{ botao.link }}">
 						{{ botao.label }}
 					</a>
 				</div>
 			</div>
 			<div class="col-4">
-				<div class="row mb-2 align-top" *ngFor="let botao of getTopico('writing')">
+				<div class="row mb-2 px-2 align-top" *ngFor="let botao of getTopico('writing')">
 					<a class="btn btn-sm btn-success topico" routerLink="{{ botao.link }}">
 						{{ botao.label }}
 					</a>
 				</div>
 			</div>
 			<div class="col-4">
-				<div class="row mb-2 align-top" *ngFor="let botao of getTopico('other')">
+				<div class="row mb-2 px-2 align-top" *ngFor="let botao of getTopico('other')">
 					<a class="btn btn-sm btn-secondary topico" routerLink="{{ botao.link }}">
 						{{ botao.label }}
 					</a>
