@@ -45,6 +45,17 @@
         "sample": []
     },
     {
+        "entry": "abajur",
+        "syllables": "a.ba.jur",
+        "pos": "noun",
+        "origin": "pt",
+        "originTerm": "abajur",
+        "meaning": [
+            "abajur"
+        ],
+        "sample": []
+    },
+    {
         "entry": "abakatu",
         "syllables": "a.ba.ka.tu",
         "pos": "noun",
@@ -143,17 +154,6 @@
         ]
     },
     {
-        "entry": "aba\u017eur",
-        "syllables": "a.ba.\u017eur",
-        "pos": "noun",
-        "origin": "pt",
-        "originTerm": "abajur",
-        "meaning": [
-            "abajur"
-        ],
-        "sample": []
-    },
-    {
         "entry": "abbara",
         "syllables": "ab.ba.ra",
         "pos": "noun",
@@ -176,6 +176,17 @@
         "sample": []
     },
     {
+        "entry": "abenju",
+        "syllables": "a.ben.ju",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "vingan\u00e7a"
+        ],
+        "sample": []
+    },
+    {
         "entry": "abenu",
         "syllables": "a.be.nu",
         "pos": "noun",
@@ -183,17 +194,6 @@
         "originTerm": null,
         "meaning": [
             "avenida"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "aben\u017eu",
-        "syllables": "a.ben.\u017eu",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "vingan\u00e7a"
         ],
         "sample": []
     },
@@ -256,8 +256,8 @@
         "sample": []
     },
     {
-        "entry": "abire\u017eo",
-        "syllables": "a.bi.re.\u017eo",
+        "entry": "abirejo",
+        "syllables": "a.bi.re.jo",
         "pos": "noun",
         "origin": "en",
         "originTerm": "average",
@@ -1386,8 +1386,8 @@
         "sample": []
     },
     {
-        "entry": "ai\u0161a\u017eu",
-        "syllables": "a.i.\u0161a.\u017eu",
+        "entry": "ai\u0161aju",
+        "syllables": "a.i.\u0161a.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -1430,6 +1430,62 @@
         "sample": []
     },
     {
+        "entry": "aja",
+        "syllables": "a.ja",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "piedade"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "ajamo",
+        "syllables": "a.ja.mo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "algemar"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "ajencia",
+        "syllables": "a.jen.ci.a",
+        "pos": "noun",
+        "origin": "pt",
+        "originTerm": "ag\u00eancia",
+        "meaning": [
+            "ag\u00eancia",
+            "\u00f3rg\u00e3o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "Ajen\u010dina",
+        "syllables": "A.jen.\u010di.na",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "Argentina"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "aji",
+        "syllables": "a.ji",
+        "pos": "pronoun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "aquilo"
+        ],
+        "sample": []
+    },
+    {
         "entry": "aka",
         "syllables": "a.ka",
         "pos": "noun",
@@ -1455,6 +1511,28 @@
                 "translate": "Marte \u00e9 o quarto planeta do sistema solar"
             }
         ]
+    },
+    {
+        "entry": "akajoa",
+        "syllables": "a.ka.jo.a",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "rubi"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "akajona",
+        "syllables": "a.ka.jo.na",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "laranja"
+        ],
+        "sample": []
     },
     {
         "entry": "akao",
@@ -1515,28 +1593,6 @@
         "sample": []
     },
     {
-        "entry": "aka\u017eoa",
-        "syllables": "a.ka.\u017eo.a",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "rubi"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "aka\u017eona",
-        "syllables": "a.ka.\u017eo.na",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "laranja"
-        ],
-        "sample": []
-    },
-    {
         "entry": "ake",
         "syllables": "a.ke",
         "pos": "adverb",
@@ -1559,8 +1615,8 @@
         "sample": []
     },
     {
-        "entry": "akeo\u017eu",
-        "syllables": "a.ke.o.\u017eu",
+        "entry": "akeoju",
+        "syllables": "a.ke.o.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -1570,8 +1626,8 @@
         "sample": []
     },
     {
-        "entry": "akeo\u017eunor",
-        "syllables": "a.ke.o.\u017eu.nor",
+        "entry": "akeojunor",
+        "syllables": "a.ke.o.ju.nor",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -1790,6 +1846,19 @@
         ]
     },
     {
+        "entry": "akujo",
+        "syllables": "a.ku.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "anti-jogo",
+            "trapa\u00e7a",
+            "burla de regra"
+        ],
+        "sample": []
+    },
+    {
         "entry": "akulatira",
         "syllables": "a.ku.la.ti.ra",
         "pos": "noun",
@@ -1872,8 +1941,8 @@
         "sample": []
     },
     {
-        "entry": "akusi\u017eo",
-        "syllables": "a.ku.si.\u017eo",
+        "entry": "akusijo",
+        "syllables": "a.ku.si.jo",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -1921,19 +1990,6 @@
             "mau cheiro",
             "fedentina",
             "fedorentina"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "aku\u017eo",
-        "syllables": "a.ku.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "anti-jogo",
-            "trapa\u00e7a",
-            "burla de regra"
         ],
         "sample": []
     },
@@ -2124,6 +2180,7 @@
         "origin": null,
         "originTerm": null,
         "meaning": [
+            "convergir",
             "convergir"
         ],
         "sample": []
@@ -2687,8 +2744,8 @@
         "sample": []
     },
     {
-        "entry": "amerisa\u017eu",
-        "syllables": "a.me.ri.sa.\u017eu",
+        "entry": "amerisaju",
+        "syllables": "a.me.ri.sa.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -3124,6 +3181,29 @@
         "sample": []
     },
     {
+        "entry": "a\u0148ji\u010da",
+        "syllables": "a\u0148.ji.\u010da",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "av\u00f4",
+            "av\u00f4 materno"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "anjo",
+        "syllables": "an.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "anjo"
+        ],
+        "sample": []
+    },
+    {
         "entry": "ankol",
         "syllables": "an.kol",
         "pos": "noun",
@@ -3315,8 +3395,8 @@
         "sample": []
     },
     {
-        "entry": "antol\u017eu",
-        "syllables": "an.tol.\u017eu",
+        "entry": "antolju",
+        "syllables": "an.tol.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -3368,29 +3448,6 @@
         "meaning": [
             "audaz",
             "destemido"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "a\u0148\u017ei\u010da",
-        "syllables": "a\u0148.\u017ei.\u010da",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "av\u00f4",
-            "av\u00f4 materno"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "an\u017eo",
-        "syllables": "an.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "anjo"
         ],
         "sample": []
     },
@@ -3451,6 +3508,18 @@
         "sample": []
     },
     {
+        "entry": "apaji\u010da",
+        "syllables": "a.pa.ji.\u010da",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "av\u00f4",
+            "av\u00f4 paterno"
+        ],
+        "sample": []
+    },
+    {
         "entry": "apaluda",
         "syllables": "a.pa.lu.da",
         "pos": "verb",
@@ -3458,18 +3527,6 @@
         "originTerm": null,
         "meaning": [
             "aplicar"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "apa\u017ei\u010da",
-        "syllables": "a.pa.\u017ei.\u010da",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "av\u00f4",
-            "av\u00f4 paterno"
         ],
         "sample": []
     },
@@ -3574,6 +3631,17 @@
         "sample": []
     },
     {
+        "entry": "apolju",
+        "syllables": "a.pol.ju",
+        "pos": "noun",
+        "origin": "en",
+        "originTerm": "apologies",
+        "meaning": [
+            "desculpa"
+        ],
+        "sample": []
+    },
+    {
         "entry": "apolla",
         "syllables": "a.pol.la",
         "pos": "noun",
@@ -3581,17 +3649,6 @@
         "originTerm": null,
         "meaning": [
             "pol\u00edtica"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "apol\u017eu",
-        "syllables": "a.pol.\u017eu",
-        "pos": "noun",
-        "origin": "en",
-        "originTerm": "apologies",
-        "meaning": [
-            "desculpa"
         ],
         "sample": []
     },
@@ -4332,6 +4389,18 @@
         "sample": []
     },
     {
+        "entry": "asabe",
+        "syllables": "a.sa.be",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "o amanhecer",
+            "o alvorecer"
+        ],
+        "sample": []
+    },
+    {
         "entry": "asai",
         "syllables": "a.sa.i",
         "pos": "adjective",
@@ -4634,6 +4703,17 @@
         "sample": []
     },
     {
+        "entry": "aspejida",
+        "syllables": "as.pe.ji.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "espargir"
+        ],
+        "sample": []
+    },
+    {
         "entry": "aspetu",
         "syllables": "as.pe.tu",
         "pos": "noun",
@@ -4641,17 +4721,6 @@
         "originTerm": null,
         "meaning": [
             "aspecto"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "aspe\u017eida",
-        "syllables": "as.pe.\u017ei.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "espargir"
         ],
         "sample": []
     },
@@ -4891,8 +4960,8 @@
         "sample": []
     },
     {
-        "entry": "astur\u017eoro",
-        "syllables": "as.tur.\u017eo.ro",
+        "entry": "asturjoro",
+        "syllables": "as.tur.jo.ro",
         "pos": "noun",
         "origin": "pt",
         "originTerm": "estrugir",
@@ -5056,8 +5125,8 @@
         "sample": []
     },
     {
-        "entry": "aterrisa\u017eu",
-        "syllables": "a.ter.ri.sa.\u017eu",
+        "entry": "aterrisaju",
+        "syllables": "a.ter.ri.sa.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -5126,8 +5195,8 @@
         "sample": []
     },
     {
-        "entry": "ator\u017eei",
-        "syllables": "a.tor.\u017ee.i",
+        "entry": "atorjei",
+        "syllables": "a.tor.je.i",
         "pos": "adjective",
         "origin": null,
         "originTerm": null,
@@ -5583,17 +5652,6 @@
         "sample": []
     },
     {
-        "entry": "a\u017ea",
-        "syllables": "a.\u017ea",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "piedade"
-        ],
-        "sample": []
-    },
-    {
         "entry": "azai",
         "syllables": "a.za.i",
         "pos": "adjective",
@@ -5603,17 +5661,6 @@
             "claro",
             "fresco",
             "novo"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "a\u017eamo",
-        "syllables": "a.\u017ea.mo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "algemar"
         ],
         "sample": []
     },
@@ -5641,29 +5688,6 @@
         "sample": []
     },
     {
-        "entry": "a\u017eencia",
-        "syllables": "a.\u017een.ci.a",
-        "pos": "noun",
-        "origin": "pt",
-        "originTerm": "ag\u00eancia",
-        "meaning": [
-            "ag\u00eancia",
-            "\u00f3rg\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "A\u017een\u010dina",
-        "syllables": "A.\u017een.\u010di.na",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "Argentina"
-        ],
-        "sample": []
-    },
-    {
         "entry": "azetida",
         "syllables": "a.ze.ti.da",
         "pos": "verb",
@@ -5682,17 +5706,6 @@
         "originTerm": null,
         "meaning": [
             "un\u00e7\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "a\u017ei",
-        "syllables": "a.\u017ei",
-        "pos": "pronoun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "aquilo"
         ],
         "sample": []
     },
@@ -5810,8 +5823,8 @@
         "sample": []
     },
     {
-        "entry": "azule\u017eo",
-        "syllables": "a.zu.le.\u017eo",
+        "entry": "azulejo",
+        "syllables": "a.zu.le.jo",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -5865,8 +5878,8 @@
         "sample": []
     },
     {
-        "entry": "babiker\u017ee",
-        "syllables": "ba.bi.ker.\u017ee",
+        "entry": "babikerje",
+        "syllables": "ba.bi.ker.je",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -6392,6 +6405,28 @@
         "originTerm": null,
         "meaning": [
             "confundir"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "barbal",
+        "syllables": "bar.bal",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "b\u00e1rbaro"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "barbalia",
+        "syllables": "bar.ba.li.a",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "barbaridade"
         ],
         "sample": []
     },
@@ -7242,6 +7277,17 @@
         "sample": []
     },
     {
+        "entry": "bejo",
+        "syllables": "be.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "beijo"
+        ],
+        "sample": []
+    },
+    {
         "entry": "beka",
         "syllables": "be.ka",
         "pos": "noun",
@@ -7253,8 +7299,8 @@
         "sample": []
     },
     {
-        "entry": "beker\u017ea",
-        "syllables": "be.ker.\u017ea",
+        "entry": "bekerja",
+        "syllables": "be.ker.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -7819,6 +7865,18 @@
         "sample": []
     },
     {
+        "entry": "besaje",
+        "syllables": "be.sa.je",
+        "pos": "adverb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "ao lado",
+            "do lado"
+        ],
+        "sample": []
+    },
+    {
         "entry": "be\u0161amo",
         "syllables": "be.\u0161a.mo",
         "pos": "noun",
@@ -7838,18 +7896,6 @@
         "meaning": [
             "humilha\u00e7\u00e3o",
             "vergonha"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "besa\u017ee",
-        "syllables": "be.sa.\u017ee",
-        "pos": "adverb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "ao lado",
-            "do lado"
         ],
         "sample": []
     },
@@ -7942,17 +7988,6 @@
         "sample": []
     },
     {
-        "entry": "be\u017eo",
-        "syllables": "be.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "beijo"
-        ],
-        "sample": []
-    },
-    {
         "entry": "bi",
         "syllables": "bi",
         "pos": "noun",
@@ -8026,8 +8061,8 @@
         "sample": []
     },
     {
-        "entry": "bib\u0142oskatol\u017eu",
-        "syllables": "bi.b\u0142os.ka.tol.\u017eu",
+        "entry": "bib\u0142oskatolju",
+        "syllables": "bi.b\u0142os.ka.tol.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -8488,8 +8523,8 @@
         "sample": []
     },
     {
-        "entry": "b\u0142en\u017ea",
-        "syllables": "b\u0142en.\u017ea",
+        "entry": "b\u0142enja",
+        "syllables": "b\u0142en.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -9133,6 +9168,17 @@
         "sample": []
     },
     {
+        "entry": "bujia",
+        "syllables": "bu.ji.a",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "ilus\u00e3o"
+        ],
+        "sample": []
+    },
+    {
         "entry": "buldoge",
         "syllables": "bul.do.ge",
         "pos": "noun",
@@ -9315,8 +9361,8 @@
         "sample": []
     },
     {
-        "entry": "Bura\u017eil",
-        "syllables": "Bu.ra.\u017eil",
+        "entry": "Burajil",
+        "syllables": "Bu.ra.jil",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -9570,17 +9616,6 @@
         "sample": []
     },
     {
-        "entry": "bu\u017eia",
-        "syllables": "bu.\u017ei.a",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "ilus\u00e3o"
-        ],
-        "sample": []
-    },
-    {
         "entry": "buzina",
         "syllables": "bu.zi.na",
         "pos": "noun",
@@ -9741,8 +9776,8 @@
         "sample": []
     },
     {
-        "entry": "\u010dalle\u017eu",
-        "syllables": "\u010dal.le.\u017eu",
+        "entry": "\u010dalleju",
+        "syllables": "\u010dal.le.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -9891,8 +9926,8 @@
         "sample": []
     },
     {
-        "entry": "\u010deka\u017eu",
-        "syllables": "\u010de.ka.\u017eu",
+        "entry": "\u010dekaju",
+        "syllables": "\u010de.ka.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -10706,6 +10741,17 @@
         "sample": []
     },
     {
+        "entry": "Daijulau",
+        "syllables": "Da.i.ju.la.u",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "dez mandamentos"
+        ],
+        "sample": []
+    },
+    {
         "entry": "Daikou",
         "syllables": "Da.i.ko.u",
         "pos": "noun",
@@ -10790,17 +10836,6 @@
         "originTerm": null,
         "meaning": [
             "justi\u00e7a divina"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "Dai\u017eulau",
-        "syllables": "Da.i.\u017eu.la.u",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "dez mandamentos"
         ],
         "sample": []
     },
@@ -12963,6 +12998,18 @@
         "sample": []
     },
     {
+        "entry": "divisa",
+        "syllables": "di.vi.sa",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "divisa",
+            "lema"
+        ],
+        "sample": []
+    },
+    {
         "entry": "dizabeluda",
         "syllables": "di.za.be.lu.da",
         "pos": "verb",
@@ -13147,6 +13194,17 @@
         "originTerm": null,
         "meaning": [
             "vital\u00edcio"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "dojo",
+        "syllables": "do.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "academia"
         ],
         "sample": []
     },
@@ -13853,17 +13911,6 @@
         "sample": []
     },
     {
-        "entry": "do\u017eo",
-        "syllables": "do.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "academia"
-        ],
-        "sample": []
-    },
-    {
         "entry": "duane",
         "syllables": "du.a.ne",
         "pos": "noun",
@@ -14324,8 +14371,8 @@
         "sample": []
     },
     {
-        "entry": "e\u010da\u017euda",
-        "syllables": "e.\u010da.\u017eu.da",
+        "entry": "e\u010dajuda",
+        "syllables": "e.\u010da.ju.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -15243,6 +15290,46 @@
         "sample": []
     },
     {
+        "entry": "ekjibor",
+        "syllables": "ek.ji.bor",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "genro do tio",
+            "marido da filha do tio",
+            "primo",
+            "primo posti\u00e7o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "ekjisa",
+        "syllables": "ek.ji.sa",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "marido da tia",
+            "tio"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "ekjisor",
+        "syllables": "ek.ji.sor",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "esposa do filho do tio",
+            "nora do tio",
+            "prima",
+            "prima posti\u00e7a"
+        ],
+        "sample": []
+    },
+    {
         "entry": "ekkabe",
         "syllables": "ek.ka.be",
         "pos": "noun",
@@ -15424,46 +15511,6 @@
         "meaning": [
             "delas",
             "deles"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ek\u017eibor",
-        "syllables": "ek.\u017ei.bor",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "genro do tio",
-            "marido da filha do tio",
-            "primo",
-            "primo posti\u00e7o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ek\u017eisa",
-        "syllables": "ek.\u017ei.sa",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "marido da tia",
-            "tio"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ek\u017eisor",
-        "syllables": "ek.\u017ei.sor",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "esposa do filho do tio",
-            "nora do tio",
-            "prima",
-            "prima posti\u00e7a"
         ],
         "sample": []
     },
@@ -16667,6 +16714,17 @@
         "sample": []
     },
     {
+        "entry": "erenjuiv",
+        "syllables": "e.ren.ju.iv",
+        "pos": "adverb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "d\u00e9cada passada"
+        ],
+        "sample": []
+    },
+    {
         "entry": "erennen",
         "syllables": "e.ren.nen",
         "pos": "adverb",
@@ -16711,17 +16769,6 @@
         "sample": []
     },
     {
-        "entry": "eren\u017euiv",
-        "syllables": "e.ren.\u017eu.iv",
-        "pos": "adverb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "d\u00e9cada passada"
-        ],
-        "sample": []
-    },
-    {
         "entry": "ergasa",
         "syllables": "er.ga.sa",
         "pos": "noun",
@@ -16746,8 +16793,8 @@
         "sample": []
     },
     {
-        "entry": "eri\u017eeda",
-        "syllables": "e.ri.\u017ee.da",
+        "entry": "erijeda",
+        "syllables": "e.ri.je.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -17229,8 +17276,8 @@
         "sample": []
     },
     {
-        "entry": "etiol\u017eu",
-        "syllables": "e.ti.ol.\u017eu",
+        "entry": "etiolju",
+        "syllables": "e.ti.ol.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -17541,8 +17588,8 @@
         "sample": []
     },
     {
-        "entry": "fabel\u017eo",
-        "syllables": "fa.bel.\u017eo",
+        "entry": "fabeljo",
+        "syllables": "fa.bel.jo",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -19262,6 +19309,17 @@
         "sample": []
     },
     {
+        "entry": "fujuda",
+        "syllables": "fu.ju.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "escapar"
+        ],
+        "sample": []
+    },
+    {
         "entry": "fulg",
         "syllables": "fulg",
         "pos": "noun",
@@ -19659,17 +19717,6 @@
         "originTerm": null,
         "meaning": [
             "fus\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "fu\u017euda",
-        "syllables": "fu.\u017eu.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "escapar"
         ],
         "sample": []
     },
@@ -20457,6 +20504,17 @@
         "sample": []
     },
     {
+        "entry": "genjic",
+        "syllables": "gen.jic",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "realidade"
+        ],
+        "sample": []
+    },
+    {
         "entry": "genki",
         "syllables": "gen.ki",
         "pos": "adjective",
@@ -20563,17 +20621,6 @@
         "originTerm": null,
         "meaning": [
             "joelho"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "gen\u017eic",
-        "syllables": "gen.\u017eic",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "realidade"
         ],
         "sample": []
     },
@@ -20961,8 +21008,8 @@
         "sample": []
     },
     {
-        "entry": "ginko\u017eencia",
-        "syllables": "gin.ko.\u017een.ci.a",
+        "entry": "ginkojencia",
+        "syllables": "gin.ko.jen.ci.a",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -20972,8 +21019,8 @@
         "sample": []
     },
     {
-        "entry": "ginko\u017eere",
-        "syllables": "gin.ko.\u017ee.re",
+        "entry": "ginkojere",
+        "syllables": "gin.ko.je.re",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -22368,8 +22415,8 @@
         "sample": []
     },
     {
-        "entry": "haluniei\u017ea",
-        "syllables": "ha.lu.ni.e.i.\u017ea",
+        "entry": "halunieija",
+        "syllables": "ha.lu.ni.e.i.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -22516,8 +22563,8 @@
         "sample": []
     },
     {
-        "entry": "hanesi\u017eu",
-        "syllables": "ha.ne.si.\u017eu",
+        "entry": "hanesiju",
+        "syllables": "ha.ne.si.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -22560,8 +22607,8 @@
         "sample": []
     },
     {
-        "entry": "hango\u017eubani",
-        "syllables": "han.go.\u017eu.ba.ni",
+        "entry": "hangojubani",
+        "syllables": "han.go.ju.ba.ni",
         "pos": "adjective",
         "origin": null,
         "originTerm": null,
@@ -22769,6 +22816,40 @@
         "originTerm": null,
         "meaning": [
             "harpa"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "harsi\u010d",
+        "syllables": "har.si\u010d",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "censura",
+            "cala\u00e7\u00e3o",
+            "oculta\u00e7\u00e3o",
+            "censura",
+            "cala\u00e7\u00e3o",
+            "oculta\u00e7\u00e3o",
+            "censura",
+            "cala\u00e7\u00e3o",
+            "oculta\u00e7\u00e3o",
+            "censura",
+            "cala\u00e7\u00e3o",
+            "oculta\u00e7\u00e3o",
+            "censura",
+            "cala\u00e7\u00e3o",
+            "oculta\u00e7\u00e3o",
+            "censura",
+            "cala\u00e7\u00e3o",
+            "oculta\u00e7\u00e3o",
+            "censura",
+            "cala\u00e7\u00e3o",
+            "oculta\u00e7\u00e3o",
+            "censura",
+            "cala\u00e7\u00e3o",
+            "oculta\u00e7\u00e3o"
         ],
         "sample": []
     },
@@ -23912,6 +23993,17 @@
         "sample": []
     },
     {
+        "entry": "hirube",
+        "syllables": "hi.ru.be",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "o entardecer"
+        ],
+        "sample": []
+    },
+    {
         "entry": "hi\u0161a",
         "syllables": "hi.\u0161a",
         "pos": "noun",
@@ -24337,8 +24429,8 @@
         "sample": []
     },
     {
-        "entry": "horo\u017ee",
-        "syllables": "ho.ro.\u017ee",
+        "entry": "horoje",
+        "syllables": "ho.ro.je",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -24392,6 +24484,29 @@
         "sample": []
     },
     {
+        "entry": "ho\u0161",
+        "syllables": "ho\u0161",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "cabe\u00e7a"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "ho\u0161a",
+        "syllables": "ho.\u0161a",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "capit\u00e3o",
+            "comandante"
+        ],
+        "sample": []
+    },
+    {
         "entry": "ho\u0161i",
         "syllables": "ho.\u0161i",
         "pos": "noun",
@@ -24399,6 +24514,19 @@
         "originTerm": null,
         "meaning": [
             "estrela"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "ho\u0161oda",
+        "syllables": "ho.\u0161o.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "encabe\u00e7ar",
+            "liderar",
+            "capitanear"
         ],
         "sample": []
     },
@@ -24604,8 +24732,8 @@
         "sample": []
     },
     {
-        "entry": "hundo\u017eida",
-        "syllables": "hun.do.\u017ei.da",
+        "entry": "hundojida",
+        "syllables": "hun.do.ji.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -25013,6 +25141,28 @@
         "sample": []
     },
     {
+        "entry": "ihejo",
+        "syllables": "i.he.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "invas\u00e3o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "ihejor",
+        "syllables": "i.he.jor",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "invasor"
+        ],
+        "sample": []
+    },
+    {
         "entry": "ihezida",
         "syllables": "i.he.zi.da",
         "pos": "verb",
@@ -25024,17 +25174,6 @@
         "sample": []
     },
     {
-        "entry": "ihe\u017eo",
-        "syllables": "i.he.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "invas\u00e3o"
-        ],
-        "sample": []
-    },
-    {
         "entry": "ihezoi",
         "syllables": "i.he.zo.i",
         "pos": "adjective",
@@ -25042,17 +25181,6 @@
         "originTerm": null,
         "meaning": [
             "invadido"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ihe\u017eor",
-        "syllables": "i.he.\u017eor",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "invasor"
         ],
         "sample": []
     },
@@ -26914,6 +27042,28 @@
         "sample": []
     },
     {
+        "entry": "izmena",
+        "syllables": "iz.me.na",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "modifica\u00e7\u00e3o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "izmi",
+        "syllables": "iz.mi",
+        "pos": "adjective",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "cheiroso"
+        ],
+        "sample": []
+    },
+    {
         "entry": "izobar",
         "syllables": "i.zo.bar",
         "pos": "noun",
@@ -27310,6 +27460,28 @@
         "sample": []
     },
     {
+        "entry": "jarna",
+        "syllables": "j.ar.na",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "tirania"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "jarnaro",
+        "syllables": "j.ar.na.ro",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "tirano"
+        ],
+        "sample": []
+    },
+    {
         "entry": "jaruda",
         "syllables": "ja.ru.da",
         "pos": "verb",
@@ -27377,8 +27549,8 @@
         "sample": []
     },
     {
-        "entry": "je\u00ee\u017eestosa",
-        "syllables": "je\u00ee.\u017ees.to.sa",
+        "entry": "je\u00eejestosa",
+        "syllables": "je\u00ee.jes.to.sa",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -28394,6 +28566,18 @@
         "sample": []
     },
     {
+        "entry": "jujito",
+        "syllables": "ju.ji.to",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "jiu jitsu",
+            "jiu-jitsu"
+        ],
+        "sample": []
+    },
+    {
         "entry": "jujoin",
         "syllables": "ju.jo.in",
         "pos": "noun",
@@ -28402,6 +28586,17 @@
         "meaning": [
             "empregado",
             "funcion\u00e1rio"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "jujuba",
+        "syllables": "ju.ju.ba",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "jujuba"
         ],
         "sample": []
     },
@@ -28615,29 +28810,6 @@
         "meaning": [
             "arte",
             "habilidade"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ju\u017eito",
-        "syllables": "ju.\u017ei.to",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "jiu jitsu",
-            "jiu-jitsu"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ju\u017euba",
-        "syllables": "ju.\u017eu.ba",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "jujuba"
         ],
         "sample": []
     },
@@ -28919,6 +29091,17 @@
         "sample": []
     },
     {
+        "entry": "ka\u00eeju",
+        "syllables": "ka\u00ee.ju",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "monstro"
+        ],
+        "sample": []
+    },
+    {
         "entry": "kais",
         "syllables": "ka.is",
         "pos": "noun",
@@ -28930,13 +29113,57 @@
         "sample": []
     },
     {
-        "entry": "ka\u00ee\u017eu",
-        "syllables": "ka\u00ee.\u017eu",
+        "entry": "kaja",
+        "syllables": "ka.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
         "meaning": [
-            "monstro"
+            "caj\u00e1"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kajatir",
+        "syllables": "ka.ja.tir",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "cajazeiro"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kajin",
+        "syllables": "ka.jin",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "segrel"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kajuu",
+        "syllables": "ka.ju.u",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "caju"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kajuutir",
+        "syllables": "ka.ju.u.tir",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "cajueiro"
         ],
         "sample": []
     },
@@ -29178,8 +29405,8 @@
         "sample": []
     },
     {
-        "entry": "kamera\u017ein",
-        "syllables": "ka.me.ra.\u017ein",
+        "entry": "kamerajin",
+        "syllables": "ka.me.ra.jin",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -29595,6 +29822,17 @@
         "sample": []
     },
     {
+        "entry": "kari",
+        "syllables": "ka.ri",
+        "pos": "adjective",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "vazio"
+        ],
+        "sample": []
+    },
+    {
         "entry": "kariera",
         "syllables": "ka.ri.e.ra",
         "pos": "noun",
@@ -29602,6 +29840,17 @@
         "originTerm": null,
         "meaning": [
             "carreira"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kariju",
+        "syllables": "ka.ri.j.u",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "libertinagem"
         ],
         "sample": []
     },
@@ -30108,17 +30357,6 @@
         "sample": []
     },
     {
-        "entry": "ka\u017ea",
-        "syllables": "ka.\u017ea",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "caj\u00e1"
-        ],
-        "sample": []
-    },
-    {
         "entry": "Kazakistane",
         "syllables": "Ka.za.kis.ta.ne",
         "pos": "noun",
@@ -30126,17 +30364,6 @@
         "originTerm": null,
         "meaning": [
             "Cazaquist\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ka\u017eatir",
-        "syllables": "ka.\u017ea.tir",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "cajazeiro"
         ],
         "sample": []
     },
@@ -30182,17 +30409,6 @@
         "originTerm": null,
         "meaning": [
             "ventoso"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ka\u017ein",
-        "syllables": "ka.\u017ein",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "segrel"
         ],
         "sample": []
     },
@@ -30273,28 +30489,6 @@
         "originTerm": null,
         "meaning": [
             "casulo"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ka\u017euu",
-        "syllables": "ka.\u017eu.u",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "caju"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ka\u017euutir",
-        "syllables": "ka.\u017eu.u.tir",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "cajueiro"
         ],
         "sample": []
     },
@@ -30512,6 +30706,18 @@
         "originTerm": null,
         "meaning": [
             "calcular"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "keju",
+        "syllables": "ke.ju",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "caso",
+            "queijo"
         ],
         "sample": []
     },
@@ -30897,6 +31103,17 @@
         "sample": []
     },
     {
+        "entry": "kerjatomo",
+        "syllables": "ker.ja.to.mo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "colega de trabalho"
+        ],
+        "sample": []
+    },
+    {
         "entry": "kerna",
         "syllables": "ker.na",
         "pos": "noun",
@@ -30928,17 +31145,6 @@
             "retornar",
             "vir",
             "voltar"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ker\u017eatomo",
-        "syllables": "ker.\u017ea.to.mo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "colega de trabalho"
         ],
         "sample": []
     },
@@ -31014,6 +31220,18 @@
         "sample": []
     },
     {
+        "entry": "ketuho\u0161",
+        "syllables": "ke.tu.ho\u0161",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "primeiro dia do m\u00eas",
+            "in\u00edcio do m\u00eas"
+        ],
+        "sample": []
+    },
+    {
         "entry": "ketunofia",
         "syllables": "ke.tu.no.fi.a",
         "pos": "noun",
@@ -31021,6 +31239,18 @@
         "originTerm": null,
         "meaning": [
             "mensalidade"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "ketuteel",
+        "syllables": "ke.tu.te.el",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "\u00faltimo dia do m\u00eas",
+            "fim do m\u00eas"
         ],
         "sample": []
     },
@@ -31123,18 +31353,6 @@
         "originTerm": null,
         "meaning": [
             "espa\u00e7o p\u00fablico"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ke\u017eu",
-        "syllables": "ke.\u017eu",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "caso",
-            "queijo"
         ],
         "sample": []
     },
@@ -31324,6 +31542,30 @@
         "originTerm": null,
         "meaning": [
             "amarelo"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kijida",
+        "syllables": "ki.ji.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "convencer",
+            "persuadir"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kijolisa",
+        "syllables": "ki.jo.li.sa",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "convencimento",
+            "persuas\u00e3o"
         ],
         "sample": []
     },
@@ -31644,6 +31886,17 @@
         "originTerm": null,
         "meaning": [
             "Quirguist\u00e3o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kiristini",
+        "syllables": "ki.ris.ti.ni",
+        "pos": "adjective",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "crist\u00e3o"
         ],
         "sample": []
     },
@@ -32063,18 +32316,6 @@
         "sample": []
     },
     {
-        "entry": "ki\u017eida",
-        "syllables": "ki.\u017ei.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "convencer",
-            "persuadir"
-        ],
-        "sample": []
-    },
-    {
         "entry": "kizoku",
         "syllables": "ki.zo.ku",
         "pos": "noun",
@@ -32082,18 +32323,6 @@
         "originTerm": null,
         "meaning": [
             "atribui\u00e7\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ki\u017eolisa",
-        "syllables": "ki.\u017eo.li.sa",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "convencimento",
-            "persuas\u00e3o"
         ],
         "sample": []
     },
@@ -32378,8 +32607,8 @@
         "sample": []
     },
     {
-        "entry": "kohu\u017eu",
-        "syllables": "ko.hu.\u017eu",
+        "entry": "kohuju",
+        "syllables": "ko.hu.ju",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -32389,8 +32618,8 @@
         "sample": []
     },
     {
-        "entry": "kohu\u017euda",
-        "syllables": "ko.hu.\u017eu.da",
+        "entry": "kohujuda",
+        "syllables": "ko.hu.ju.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -32400,8 +32629,8 @@
         "sample": []
     },
     {
-        "entry": "kohu\u017eui",
-        "syllables": "ko.hu.\u017eu.i",
+        "entry": "kohujui",
+        "syllables": "ko.hu.ju.i",
         "pos": "adjective",
         "origin": null,
         "originTerm": null,
@@ -32429,6 +32658,50 @@
         "originTerm": null,
         "meaning": [
             "ilhota"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "koji",
+        "syllables": "ko.ji",
+        "pos": "pronoun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "isto"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kojo",
+        "syllables": "ko.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "f\u00e1brica"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kojoluna",
+        "syllables": "ko.jo.lu.na",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "fabrica\u00e7\u00e3o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kojosoda",
+        "syllables": "ko.jo.so.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "fabricar"
         ],
         "sample": []
     },
@@ -32760,6 +33033,17 @@
         "sample": []
     },
     {
+        "entry": "komenjida",
+        "syllables": "ko.men.ji.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "iniciar"
+        ],
+        "sample": []
+    },
+    {
         "entry": "komentaro",
         "syllables": "ko.men.ta.ro",
         "pos": "noun",
@@ -32767,17 +33051,6 @@
         "originTerm": null,
         "meaning": [
             "coment\u00e1rio"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "komen\u017eida",
-        "syllables": "ko.men.\u017ei.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "iniciar"
         ],
         "sample": []
     },
@@ -33197,6 +33470,17 @@
         "sample": []
     },
     {
+        "entry": "konjugada",
+        "syllables": "kon.ju.ga.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "conjugar"
+        ],
+        "sample": []
+    },
+    {
         "entry": "konkuda",
         "syllables": "kon.ku.da",
         "pos": "verb",
@@ -33397,17 +33681,6 @@
         "meaning": [
             "erradicar",
             "exterminar"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "kon\u017eugada",
-        "syllables": "kon.\u017eu.ga.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "conjugar"
         ],
         "sample": []
     },
@@ -34040,17 +34313,6 @@
         "sample": []
     },
     {
-        "entry": "ko\u017ei",
-        "syllables": "ko.\u017ei",
-        "pos": "pronoun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "isto"
-        ],
-        "sample": []
-    },
-    {
         "entry": "kozmogonia",
         "syllables": "koz.mo.go.ni.a",
         "pos": "noun",
@@ -34080,39 +34342,6 @@
         "originTerm": null,
         "meaning": [
             "cosmos"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ko\u017eo",
-        "syllables": "ko.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "f\u00e1brica"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ko\u017eoluna",
-        "syllables": "ko.\u017eo.lu.na",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "fabrica\u00e7\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ko\u017eosoda",
-        "syllables": "ko.\u017eo.so.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "fabricar"
         ],
         "sample": []
     },
@@ -34242,8 +34471,8 @@
         "sample": []
     },
     {
-        "entry": "kufa\u017eida",
-        "syllables": "ku.fa.\u017ei.da",
+        "entry": "kufajida",
+        "syllables": "ku.fa.ji.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -34305,6 +34534,17 @@
         "originTerm": null,
         "meaning": [
             "curr\u00edculo"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kuju",
+        "syllables": "ku.ju",
+        "pos": "number",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "noventa"
         ],
         "sample": []
     },
@@ -34524,8 +34764,8 @@
         "sample": []
     },
     {
-        "entry": "kupe\u017eo",
-        "syllables": "ku.pe.\u017eo",
+        "entry": "kupejo",
+        "syllables": "ku.pe.jo",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -34535,8 +34775,8 @@
         "sample": []
     },
     {
-        "entry": "kupe\u017eonor",
-        "syllables": "ku.pe.\u017eo.nor",
+        "entry": "kupejonor",
+        "syllables": "ku.pe.jo.nor",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -34546,8 +34786,8 @@
         "sample": []
     },
     {
-        "entry": "kupe\u017eoruda",
-        "syllables": "ku.pe.\u017eo.ru.da",
+        "entry": "kupejoruda",
+        "syllables": "ku.pe.jo.ru.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -34557,8 +34797,8 @@
         "sample": []
     },
     {
-        "entry": "kupe\u017eotou",
-        "syllables": "ku.pe.\u017eo.to.u",
+        "entry": "kupejotou",
+        "syllables": "ku.pe.jo.to.u",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -35053,17 +35293,6 @@
         "sample": []
     },
     {
-        "entry": "ku\u017eu",
-        "syllables": "ku.\u017eu",
-        "pos": "number",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "noventa"
-        ],
-        "sample": []
-    },
-    {
         "entry": "kyeda",
         "syllables": "kye.da",
         "pos": "verb",
@@ -35093,6 +35322,17 @@
         "originTerm": null,
         "meaning": [
             "comum"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "kyojin",
+        "syllables": "kyo.jin",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "gigante"
         ],
         "sample": []
     },
@@ -35148,17 +35388,6 @@
         "originTerm": null,
         "meaning": [
             "uni\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "kyo\u017ein",
-        "syllables": "kyo.\u017ein",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "gigante"
         ],
         "sample": []
     },
@@ -35495,6 +35724,18 @@
         "sample": []
     },
     {
+        "entry": "laje",
+        "syllables": "la.je",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "laje",
+            "terra\u00e7o"
+        ],
+        "sample": []
+    },
+    {
         "entry": "lajida",
         "syllables": "la.ji.da",
         "pos": "noun",
@@ -35775,6 +36016,17 @@
         "sample": []
     },
     {
+        "entry": "laraju",
+        "syllables": "la.ra.ju",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "tempo de vida"
+        ],
+        "sample": []
+    },
+    {
         "entry": "laranome",
         "syllables": "la.ra.no.me",
         "pos": "noun",
@@ -35782,17 +36034,6 @@
         "originTerm": null,
         "meaning": [
             "cosmovis\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "lara\u017eu",
-        "syllables": "la.ra.\u017eu",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "tempo de vida"
         ],
         "sample": []
     },
@@ -36066,18 +36307,6 @@
                 "translate": "Eles foram comidos por um le\u00e3o"
             }
         ]
-    },
-    {
-        "entry": "la\u017ee",
-        "syllables": "la.\u017ee",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "laje",
-            "terra\u00e7o"
-        ],
-        "sample": []
     },
     {
         "entry": "laznosta",
@@ -36412,6 +36641,17 @@
         "meaning": [
             "laser",
             "raio laser"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "lejumi",
+        "syllables": "le.ju.mi",
+        "pos": "adjective",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "leve"
         ],
         "sample": []
     },
@@ -36897,17 +37137,6 @@
         "originTerm": null,
         "meaning": [
             "Lesoto"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "le\u017eumi",
-        "syllables": "le.\u017eu.mi",
-        "pos": "adjective",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "leve"
         ],
         "sample": []
     },
@@ -38165,8 +38394,8 @@
         "sample": []
     },
     {
-        "entry": "lure\u017eida",
-        "syllables": "lu.re.\u017ei.da",
+        "entry": "lurejida",
+        "syllables": "lu.re.ji.da",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -38435,8 +38664,8 @@
         "sample": []
     },
     {
-        "entry": "maei\u017eo",
-        "syllables": "ma.e.i.\u017eo",
+        "entry": "maeijo",
+        "syllables": "ma.e.i.jo",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -38755,7 +38984,8 @@
         "origin": null,
         "originTerm": null,
         "meaning": [
-            "neto"
+            "neto",
+            "neta"
         ],
         "sample": []
     },
@@ -38959,6 +39189,17 @@
         "sample": []
     },
     {
+        "entry": "maho\u0161a",
+        "syllables": "ma.ho.\u0161a",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "general"
+        ],
+        "sample": []
+    },
+    {
         "entry": "mahou",
         "syllables": "ma.ho.u",
         "pos": "noun",
@@ -39151,8 +39392,6 @@
         "origin": null,
         "originTerm": null,
         "meaning": [
-            "neta",
-            "neto",
             "bruxa",
             "bruxo",
             "fada",
@@ -39901,8 +40140,8 @@
         "sample": []
     },
     {
-        "entry": "maraku\u017ea",
-        "syllables": "ma.ra.ku.\u017ea",
+        "entry": "marakuja",
+        "syllables": "ma.ra.ku.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -40824,6 +41063,17 @@
         "sample": []
     },
     {
+        "entry": "mejoro",
+        "syllables": "me.jo.ro",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "principal"
+        ],
+        "sample": []
+    },
+    {
         "entry": "mekanore",
         "syllables": "me.ka.no.re",
         "pos": "noun",
@@ -40945,6 +41195,17 @@
         "sample": []
     },
     {
+        "entry": "menajo",
+        "syllables": "me.na.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "limpeza"
+        ],
+        "sample": []
+    },
+    {
         "entry": "menakyuu",
         "syllables": "me.na.kyu.u",
         "pos": "noun",
@@ -40952,17 +41213,6 @@
         "originTerm": null,
         "meaning": [
             "sofreguid\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "mena\u017eo",
-        "syllables": "me.na.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "limpeza"
         ],
         "sample": []
     },
@@ -41857,17 +42107,6 @@
         "sample": []
     },
     {
-        "entry": "me\u017eoro",
-        "syllables": "me.\u017eo.ro",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "principal"
-        ],
-        "sample": []
-    },
-    {
         "entry": "mezuni",
         "syllables": "me.zu.ni",
         "pos": "noun",
@@ -42015,6 +42254,17 @@
         "sample": []
     },
     {
+        "entry": "midojoa",
+        "syllables": "mi.do.jo.a",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "esmeralda"
+        ],
+        "sample": []
+    },
+    {
         "entry": "midoor",
         "syllables": "mi.do.or",
         "pos": "noun",
@@ -42055,17 +42305,6 @@
         "originTerm": null,
         "meaning": [
             "oliva"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "mido\u017eoa",
-        "syllables": "mi.do.\u017eo.a",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "esmeralda"
         ],
         "sample": []
     },
@@ -42443,6 +42682,17 @@
         "sample": []
     },
     {
+        "entry": "miore",
+        "syllables": "mi.o.re",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "melhor ser"
+        ],
+        "sample": []
+    },
+    {
         "entry": "miosa",
         "syllables": "mi.o.sa",
         "pos": "noun",
@@ -42476,6 +42726,17 @@
         "sample": []
     },
     {
+        "entry": "miraju",
+        "syllables": "mi.ra.ju",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "vis\u00e3o"
+        ],
+        "sample": []
+    },
+    {
         "entry": "mirakutua",
         "syllables": "mi.ra.ku.tu.a",
         "pos": "noun",
@@ -42483,17 +42744,6 @@
         "originTerm": null,
         "meaning": [
             "compreens\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "mira\u017eu",
-        "syllables": "mi.ra.\u017eu",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "vis\u00e3o"
         ],
         "sample": []
     },
@@ -43718,6 +43968,17 @@
         "sample": []
     },
     {
+        "entry": "mukda\u0161i",
+        "syllables": "muk.da.\u0161i",
+        "pos": "adjective",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "sagrado"
+        ],
+        "sample": []
+    },
+    {
         "entry": "mula",
         "syllables": "mu.la",
         "pos": "noun",
@@ -44367,8 +44628,8 @@
         "sample": []
     },
     {
-        "entry": "naltu\u017eel",
-        "syllables": "nal.tu.\u017eel",
+        "entry": "naltujel",
+        "syllables": "nal.tu.jel",
         "pos": "adverb",
         "origin": null,
         "originTerm": null,
@@ -44973,6 +45234,17 @@
         "sample": []
     },
     {
+        "entry": "neji",
+        "syllables": "ne.ji",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "parafuso"
+        ],
+        "sample": []
+    },
+    {
         "entry": "nek",
         "syllables": "nek",
         "pos": "noun",
@@ -45432,17 +45704,6 @@
         "sample": []
     },
     {
-        "entry": "ne\u017ei",
-        "syllables": "ne.\u017ei",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "parafuso"
-        ],
-        "sample": []
-    },
-    {
         "entry": "neznano",
         "syllables": "nez.na.no",
         "pos": "noun",
@@ -45628,6 +45889,17 @@
         "originTerm": null,
         "meaning": [
             "Jap\u00e3o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "niju",
+        "syllables": "ni.ju",
+        "pos": "number",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "vinte"
         ],
         "sample": []
     },
@@ -45842,6 +46114,18 @@
         "sample": []
     },
     {
+        "entry": "nipojonos",
+        "syllables": "ni.po.jo.nos",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "amarelo japon\u00eas",
+            "pessoa japonesa"
+        ],
+        "sample": []
+    },
+    {
         "entry": "nipo\u0148elbe",
         "syllables": "ni.po.\u0148el.be",
         "pos": "noun",
@@ -45849,18 +46133,6 @@
         "originTerm": null,
         "meaning": [
             "l\u00edngua japonesa"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "nipo\u017eonos",
-        "syllables": "ni.po.\u017eo.nos",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "amarelo japon\u00eas",
-            "pessoa japonesa"
         ],
         "sample": []
     },
@@ -46012,17 +46284,6 @@
         "sample": []
     },
     {
-        "entry": "ni\u017eu",
-        "syllables": "ni.\u017eu",
-        "pos": "number",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "vinte"
-        ],
-        "sample": []
-    },
-    {
         "entry": "njekuda",
         "syllables": "n.je.ku.da",
         "pos": "verb",
@@ -46030,6 +46291,28 @@
         "originTerm": null,
         "meaning": [
             "seguir"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "njoha",
+        "syllables": "n.jo.ha",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "reconhecimento"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "njohada",
+        "syllables": "n.jo.ha.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "reconhecer"
         ],
         "sample": []
     },
@@ -46408,8 +46691,8 @@
         "sample": []
     },
     {
-        "entry": "nosto\u017ea",
-        "syllables": "nos.to.\u017ea",
+        "entry": "nostoja",
+        "syllables": "nos.to.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -46939,28 +47222,6 @@
         "sample": []
     },
     {
-        "entry": "n\u017eoha",
-        "syllables": "n.\u017eo.ha",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "reconhecimento"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "n\u017eohada",
-        "syllables": "n.\u017eo.ha.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "reconhecer"
-        ],
-        "sample": []
-    },
-    {
         "entry": "oabare",
         "syllables": "o.a.ba.re",
         "pos": "noun",
@@ -47051,8 +47312,8 @@
         "sample": []
     },
     {
-        "entry": "obe\u017eida",
-        "syllables": "o.be.\u017ei.da",
+        "entry": "obejida",
+        "syllables": "o.be.ji.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -47206,8 +47467,8 @@
         "sample": []
     },
     {
-        "entry": "odu\u017eada",
-        "syllables": "o.du.\u017ea.da",
+        "entry": "odujada",
+        "syllables": "o.du.ja.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -47217,8 +47478,8 @@
         "sample": []
     },
     {
-        "entry": "odu\u017easa",
-        "syllables": "o.du.\u017ea.sa",
+        "entry": "odujasa",
+        "syllables": "o.du.ja.sa",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -47250,6 +47511,17 @@
         "sample": []
     },
     {
+        "entry": "oejida",
+        "syllables": "o.e.ji.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "jogar fora"
+        ],
+        "sample": []
+    },
+    {
         "entry": "oele",
         "syllables": "o.e.le",
         "pos": "adverb",
@@ -47268,17 +47540,6 @@
         "originTerm": null,
         "meaning": [
             "dispersar"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "oe\u017eida",
-        "syllables": "o.e.\u017ei.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "jogar fora"
         ],
         "sample": []
     },
@@ -47394,6 +47655,42 @@
         "sample": []
     },
     {
+        "entry": "okazija",
+        "syllables": "o.ka.zi.ja",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "celebra\u00e7\u00e3o",
+            "comemora\u00e7\u00e3o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "okazijada",
+        "syllables": "o.ka.zi.ja.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "celebrar",
+            "comemorar"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "okazijeda",
+        "syllables": "o.ka.zi.je.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "celebrar",
+            "comemorar"
+        ],
+        "sample": []
+    },
+    {
         "entry": "okaristia",
         "syllables": "o.ka.ris.ti.a",
         "pos": "noun",
@@ -47436,42 +47733,6 @@
         "originTerm": null,
         "meaning": [
             "chegar"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "okazi\u017ea",
-        "syllables": "o.ka.zi.\u017ea",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "celebra\u00e7\u00e3o",
-            "comemora\u00e7\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "okazi\u017eada",
-        "syllables": "o.ka.zi.\u017ea.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "celebrar",
-            "comemorar"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "okazi\u017eeda",
-        "syllables": "o.ka.zi.\u017ee.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "celebrar",
-            "comemorar"
         ],
         "sample": []
     },
@@ -47635,6 +47896,17 @@
         "sample": []
     },
     {
+        "entry": "olju",
+        "syllables": "ol.ju",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "estudo"
+        ],
+        "sample": []
+    },
+    {
         "entry": "olluda",
         "syllables": "ol.lu.da",
         "pos": "verb",
@@ -47690,17 +47962,6 @@
         "sample": []
     },
     {
-        "entry": "ol\u017eu",
-        "syllables": "ol.\u017eu",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "estudo"
-        ],
-        "sample": []
-    },
-    {
         "entry": "Omana",
         "syllables": "O.ma.na",
         "pos": "noun",
@@ -47745,8 +48006,8 @@
         "sample": []
     },
     {
-        "entry": "omise\u017ein",
-        "syllables": "o.mi.se.\u017ein",
+        "entry": "omisejin",
+        "syllables": "o.mi.se.jin",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -48083,8 +48344,8 @@
         "sample": []
     },
     {
-        "entry": "optu\u017enica",
-        "syllables": "op.tu\u017e.ni.ca",
+        "entry": "optujnica",
+        "syllables": "op.tuj.ni.ca",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -48109,8 +48370,8 @@
         "sample": []
     },
     {
-        "entry": "oran\u017ea",
-        "syllables": "o.ran.\u017ea",
+        "entry": "oranja",
+        "syllables": "o.ran.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -48120,8 +48381,8 @@
         "sample": []
     },
     {
-        "entry": "oran\u017eatir",
-        "syllables": "o.ran.\u017ea.tir",
+        "entry": "oranjatir",
+        "syllables": "o.ran.ja.tir",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -48222,6 +48483,17 @@
         "sample": []
     },
     {
+        "entry": "orojo",
+        "syllables": "o.ro.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "laranja"
+        ],
+        "sample": []
+    },
+    {
         "entry": "orokai",
         "syllables": "o.ro.ka.i",
         "pos": "adjective",
@@ -48240,17 +48512,6 @@
         "originTerm": null,
         "meaning": [
             "estupidez"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "oro\u017eo",
-        "syllables": "o.ro.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "laranja"
         ],
         "sample": []
     },
@@ -48317,6 +48578,18 @@
         "originTerm": null,
         "meaning": [
             "boca"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "o\u0161\u010da",
+        "syllables": "o\u0161.\u010da",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "hostes",
+            "ex\u00e9rcitos"
         ],
         "sample": []
     },
@@ -48842,8 +49115,8 @@
         "sample": []
     },
     {
-        "entry": "outo\u017eo",
-        "syllables": "o.u.to.\u017eo",
+        "entry": "outojo",
+        "syllables": "o.u.to.jo",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -50681,6 +50954,17 @@
         "sample": []
     },
     {
+        "entry": "pieju",
+        "syllables": "pi.e.ju",
+        "pos": "noun",
+        "origin": "fr",
+        "originTerm": "pi\u00e8ge",
+        "meaning": [
+            "armadilha"
+        ],
+        "sample": []
+    },
+    {
         "entry": "pieta",
         "syllables": "pi.e.ta",
         "pos": "noun",
@@ -50702,17 +50986,6 @@
             "piedosa",
             "apiedado",
             "apiedada"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "pie\u017eu",
-        "syllables": "pi.e.\u017eu",
-        "pos": "noun",
-        "origin": "fr",
-        "originTerm": "pi\u00e8ge",
-        "meaning": [
-            "armadilha"
         ],
         "sample": []
     },
@@ -50869,6 +51142,17 @@
         "originTerm": null,
         "meaning": [
             "pintassilgo"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "piore",
+        "syllables": "pi.o.re",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "pior ser"
         ],
         "sample": []
     },
@@ -51142,6 +51426,17 @@
         "sample": []
     },
     {
+        "entry": "pojetu",
+        "syllables": "po.je.tu",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "projeto"
+        ],
+        "sample": []
+    },
+    {
         "entry": "pokaz",
         "syllables": "po.kaz",
         "pos": "noun",
@@ -51375,8 +51670,8 @@
         "sample": []
     },
     {
-        "entry": "polo\u017euda",
-        "syllables": "po.lo.\u017eu.da",
+        "entry": "polojuda",
+        "syllables": "po.lo.ju.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -51501,8 +51796,8 @@
         "sample": []
     },
     {
-        "entry": "pora\u017e",
-        "syllables": "po.ra\u017e",
+        "entry": "poraj",
+        "syllables": "po.raj",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -51862,17 +52157,6 @@
         "sample": []
     },
     {
-        "entry": "po\u017eetu",
-        "syllables": "po.\u017ee.tu",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "projeto"
-        ],
-        "sample": []
-    },
-    {
         "entry": "pozisoda",
         "syllables": "po.zi.so.da",
         "pos": "verb",
@@ -51915,6 +52199,19 @@
         "originTerm": null,
         "meaning": [
             "pessoa f\u00edsica"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "pujota",
+        "syllables": "pu.jo.ta",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "empresa",
+            "organiza\u00e7\u00e3o",
+            "pessoa jur\u00eddica"
         ],
         "sample": []
     },
@@ -52170,19 +52467,6 @@
         "originTerm": null,
         "meaning": [
             "bonito"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "pu\u017eota",
-        "syllables": "pu.\u017eo.ta",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "empresa",
-            "organiza\u00e7\u00e3o",
-            "pessoa jur\u00eddica"
         ],
         "sample": []
     },
@@ -52482,6 +52766,17 @@
         "sample": []
     },
     {
+        "entry": "raijuiv",
+        "syllables": "ra.i.ju.iv",
+        "pos": "adverb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "pr\u00f3xima d\u00e9cada"
+        ],
+        "sample": []
+    },
+    {
         "entry": "rainen",
         "syllables": "ra.i.nen",
         "pos": "adverb",
@@ -52524,17 +52819,6 @@
         "originTerm": null,
         "meaning": [
             "pr\u00f3xima hora"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "rai\u017euiv",
-        "syllables": "ra.i.\u017eu.iv",
-        "pos": "adverb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "pr\u00f3xima d\u00e9cada"
         ],
         "sample": []
     },
@@ -53261,19 +53545,8 @@
         "sample": []
     },
     {
-        "entry": "reputacia",
-        "syllables": "re.pu.ta.ci.a",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "reputa\u00e7\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "repu\u017eo",
-        "syllables": "re.pu.\u017eo",
+        "entry": "repujo",
+        "syllables": "re.pu.jo",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -53281,6 +53554,17 @@
             "n\u00e3o-aceita\u00e7\u00e3o",
             "rejei\u00e7\u00e3o",
             "rep\u00fadio"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "reputacia",
+        "syllables": "re.pu.ta.ci.a",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "reputa\u00e7\u00e3o"
         ],
         "sample": []
     },
@@ -53520,8 +53804,8 @@
         "sample": []
     },
     {
-        "entry": "rikomen\u017eida",
-        "syllables": "ri.ko.men.\u017ei.da",
+        "entry": "rikomenjida",
+        "syllables": "ri.ko.men.ji.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -53542,8 +53826,8 @@
         "sample": []
     },
     {
-        "entry": "rili\u017eida",
-        "syllables": "ri.li.\u017ei.da",
+        "entry": "rilijida",
+        "syllables": "ri.li.ji.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -54086,6 +54370,17 @@
         "originTerm": null,
         "meaning": [
             "fermentar"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "roz",
+        "syllables": "roz",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "cruz"
         ],
         "sample": []
     },
@@ -54850,6 +55145,39 @@
         "sample": []
     },
     {
+        "entry": "saj",
+        "syllables": "saj",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "lado"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "sajo",
+        "syllables": "sa.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "sargento"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "saju",
+        "syllables": "sa.ju",
+        "pos": "number",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "trinta"
+        ],
+        "sample": []
+    },
+    {
         "entry": "sak",
         "syllables": "sak",
         "pos": "noun",
@@ -55577,6 +55905,17 @@
         "sample": []
     },
     {
+        "entry": "sasije",
+        "syllables": "sa.si.je",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "salsicha"
+        ],
+        "sample": []
+    },
+    {
         "entry": "sasio",
         "syllables": "sa.si.o",
         "pos": "noun",
@@ -55595,17 +55934,6 @@
         "originTerm": null,
         "meaning": [
             "saci-perer\u00ea"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "sasi\u017ee",
-        "syllables": "sa.si.\u017ee",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "salsicha"
         ],
         "sample": []
     },
@@ -55796,17 +56124,6 @@
         "sample": []
     },
     {
-        "entry": "sa\u017e",
-        "syllables": "sa\u017e",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "lado"
-        ],
-        "sample": []
-    },
-    {
         "entry": "sazkasoda",
         "syllables": "saz.ka.so.da",
         "pos": "verb",
@@ -55814,28 +56131,6 @@
         "originTerm": null,
         "meaning": [
             "emboscar"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "sa\u017eo",
-        "syllables": "sa.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "sargento"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "sa\u017eu",
-        "syllables": "sa.\u017eu",
-        "pos": "number",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "trinta"
         ],
         "sample": []
     },
@@ -56230,6 +56525,41 @@
         "originTerm": null,
         "meaning": [
             "subsist\u00eancia"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "seje",
+        "syllables": "se.je",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "salva",
+            "s\u00e1lvia"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "sejo",
+        "syllables": "se.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "gera\u00e7\u00e3o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "\u0161eju",
+        "syllables": "\u0161e.ju",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "altera\u00e7\u00e3o",
+            "mudan\u00e7a"
         ],
         "sample": []
     },
@@ -56935,6 +57265,17 @@
         "sample": []
     },
     {
+        "entry": "serebe",
+        "syllables": "se.re.be",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "o entardecer"
+        ],
+        "sample": []
+    },
+    {
         "entry": "serebizo",
         "syllables": "se.re.bi.zo",
         "pos": "noun",
@@ -57156,41 +57497,6 @@
             "caro",
             "querida",
             "querido"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "se\u017ee",
-        "syllables": "se.\u017ee",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "salva",
-            "s\u00e1lvia"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "se\u017eo",
-        "syllables": "se.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "gera\u00e7\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "\u0161e\u017eu",
-        "syllables": "\u0161e.\u017eu",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "altera\u00e7\u00e3o",
-            "mudan\u00e7a"
         ],
         "sample": []
     },
@@ -57429,6 +57735,28 @@
         "sample": []
     },
     {
+        "entry": "sijo",
+        "syllables": "si.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "semente"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "sijosoda",
+        "syllables": "si.jo.so.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "semear"
+        ],
+        "sample": []
+    },
+    {
         "entry": "sikela",
         "syllables": "si.ke.la",
         "pos": "noun",
@@ -57496,8 +57824,8 @@
         "sample": []
     },
     {
-        "entry": "sikolpe\u017ea",
-        "syllables": "si.kol.pe.\u017ea",
+        "entry": "sikolpeja",
+        "syllables": "si.kol.pe.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -57578,8 +57906,8 @@
         "sample": []
     },
     {
-        "entry": "silaker\u017ea",
-        "syllables": "si.la.ker.\u017ea",
+        "entry": "silakerja",
+        "syllables": "si.la.ker.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -58084,8 +58412,8 @@
         "sample": []
     },
     {
-        "entry": "sirpu\u017euda",
-        "syllables": "sir.pu.\u017eu.da",
+        "entry": "sirpujuda",
+        "syllables": "sir.pu.ju.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -58239,17 +58567,6 @@
         "sample": []
     },
     {
-        "entry": "si\u017eo",
-        "syllables": "si.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "semente"
-        ],
-        "sample": []
-    },
-    {
         "entry": "sizora",
         "syllables": "si.zo.ra",
         "pos": "noun",
@@ -58257,17 +58574,6 @@
         "originTerm": null,
         "meaning": [
             "tesoura"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "si\u017eosoda",
-        "syllables": "si.\u017eo.so.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "semear"
         ],
         "sample": []
     },
@@ -58612,6 +58918,39 @@
         "sample": []
     },
     {
+        "entry": "soji",
+        "syllables": "so.ji",
+        "pos": "pronoun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "isso"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "soju",
+        "syllables": "so.ju",
+        "pos": "number",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "sessenta"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "sojuro",
+        "syllables": "so.ju.ro",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "peso bruto"
+        ],
+        "sample": []
+    },
+    {
         "entry": "soke",
         "syllables": "so.ke",
         "pos": "adverb",
@@ -58850,8 +59189,8 @@
         "sample": []
     },
     {
-        "entry": "\u0161oma\u017eo",
-        "syllables": "\u0161o.ma.\u017eo",
+        "entry": "\u0161omajo",
+        "syllables": "\u0161o.ma.jo",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -58984,8 +59323,8 @@
         "sample": []
     },
     {
-        "entry": "sonda\u017eo",
-        "syllables": "son.da.\u017eo",
+        "entry": "sondajo",
+        "syllables": "son.da.jo",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -59760,39 +60099,6 @@
         "sample": []
     },
     {
-        "entry": "so\u017ei",
-        "syllables": "so.\u017ei",
-        "pos": "pronoun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "isso"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "so\u017eu",
-        "syllables": "so.\u017eu",
-        "pos": "number",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "sessenta"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "so\u017euro",
-        "syllables": "so.\u017eu.ro",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "peso bruto"
-        ],
-        "sample": []
-    },
-    {
         "entry": "\u0161pecia",
         "syllables": "\u0161.pe.ci.a",
         "pos": "noun",
@@ -60114,6 +60420,19 @@
         "sample": []
     },
     {
+        "entry": "suejai",
+        "syllables": "su.e.ja.i",
+        "pos": "adjective",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "fresco",
+            "l\u00edmpido",
+            "novo"
+        ],
+        "sample": []
+    },
+    {
         "entry": "suek",
         "syllables": "su.ek",
         "pos": "noun",
@@ -60144,19 +60463,6 @@
         "originTerm": null,
         "meaning": [
             "derreter"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "sue\u017eai",
-        "syllables": "su.e.\u017ea.i",
-        "pos": "adjective",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "fresco",
-            "l\u00edmpido",
-            "novo"
         ],
         "sample": []
     },
@@ -60294,6 +60600,17 @@
         "sample": []
     },
     {
+        "entry": "suijo",
+        "syllables": "su.i.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "emana\u00e7\u00e3o"
+        ],
+        "sample": []
+    },
+    {
         "entry": "suikeda",
         "syllables": "su.i.ke.da",
         "pos": "verb",
@@ -60328,13 +60645,14 @@
         "sample": []
     },
     {
-        "entry": "sui\u017eo",
-        "syllables": "su.i.\u017eo",
+        "entry": "sujetu",
+        "syllables": "su.je.tu",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
         "meaning": [
-            "emana\u00e7\u00e3o"
+            "assunto",
+            "sujeito"
         ],
         "sample": []
     },
@@ -60605,8 +60923,8 @@
         "sample": []
     },
     {
-        "entry": "sumu\u017euda",
-        "syllables": "su.mu.\u017eu.da",
+        "entry": "sumujuda",
+        "syllables": "su.mu.ju.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -61156,18 +61474,6 @@
         "meaning": [
             "controlar",
             "fiscalizar"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "su\u017eetu",
-        "syllables": "su.\u017ee.tu",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "assunto",
-            "sujeito"
         ],
         "sample": []
     },
@@ -62131,6 +62437,17 @@
         "sample": []
     },
     {
+        "entry": "teel",
+        "syllables": "te.el",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "cauda"
+        ],
+        "sample": []
+    },
+    {
         "entry": "tegami",
         "syllables": "te.ga.mi",
         "pos": "noun",
@@ -62241,8 +62558,8 @@
         "sample": []
     },
     {
-        "entry": "tele\u017eurnalista",
-        "syllables": "te.le.\u017eur.na.lis.ta",
+        "entry": "telejurnalista",
+        "syllables": "te.le.jur.na.lis.ta",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -62761,8 +63078,8 @@
         "sample": []
     },
     {
-        "entry": "terube\u017eida",
-        "syllables": "te.ru.be.\u017ei.da",
+        "entry": "terubejida",
+        "syllables": "te.ru.be.ji.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -63068,6 +63385,17 @@
         "sample": []
     },
     {
+        "entry": "tijaro",
+        "syllables": "ti.ja.ro",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "tesouro"
+        ],
+        "sample": []
+    },
+    {
         "entry": "tijela",
         "syllables": "ti.je.la",
         "pos": "noun",
@@ -63075,6 +63403,17 @@
         "originTerm": null,
         "meaning": [
             "tigela"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "tijol",
+        "syllables": "ti.jol",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "tijolo"
         ],
         "sample": []
     },
@@ -63412,17 +63751,6 @@
         "sample": []
     },
     {
-        "entry": "ti\u017earo",
-        "syllables": "ti.\u017ea.ro",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "tesouro"
-        ],
-        "sample": []
-    },
-    {
         "entry": "tizenk",
         "syllables": "ti.zenk",
         "pos": "pronoun",
@@ -63455,17 +63783,6 @@
         "meaning": [
             "desfalecer",
             "desvanecer"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "ti\u017eol",
-        "syllables": "ti.\u017eol",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "tijolo"
         ],
         "sample": []
     },
@@ -63678,6 +63995,17 @@
             "banheiro",
             "lavabo",
             "toalete"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "toju",
+        "syllables": "to.ju",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "tojo"
         ],
         "sample": []
     },
@@ -63985,8 +64313,8 @@
         "sample": []
     },
     {
-        "entry": "toran\u017ea",
-        "syllables": "to.ran.\u017ea",
+        "entry": "toranja",
+        "syllables": "to.ran.ja",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -64277,17 +64605,6 @@
         "sample": []
     },
     {
-        "entry": "to\u017eu",
-        "syllables": "to.\u017eu",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "tojo"
-        ],
-        "sample": []
-    },
-    {
         "entry": "tu",
         "syllables": "tu",
         "pos": "conjunction",
@@ -64396,6 +64713,17 @@
         "originTerm": null,
         "meaning": [
             "espec\u00edfico"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "tuje",
+        "syllables": "tu.je",
+        "pos": "adverb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "sempre"
         ],
         "sample": []
     },
@@ -64822,17 +65150,6 @@
         "meaning": [
             "desalento",
             "frustra\u00e7\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "tu\u017ee",
-        "syllables": "tu.\u017ee",
-        "pos": "adverb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "sempre"
         ],
         "sample": []
     },
@@ -65470,6 +65787,39 @@
         "sample": []
     },
     {
+        "entry": "umajo",
+        "syllables": "u.ma.jo",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "aposta em cavalos"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "umajosoda",
+        "syllables": "u.ma.jo.so.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "apostar em cavalos"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "umajotou",
+        "syllables": "u.ma.jo.to.u",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "j\u00f3quei clube"
+        ],
+        "sample": []
+    },
+    {
         "entry": "umalla",
         "syllables": "u.mal.la",
         "pos": "noun",
@@ -65546,39 +65896,6 @@
         "meaning": [
             "equita\u00e7\u00e3o",
             "hipismo"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "uma\u017eo",
-        "syllables": "u.ma.\u017eo",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "aposta em cavalos"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "uma\u017eosoda",
-        "syllables": "u.ma.\u017eo.so.da",
-        "pos": "verb",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "apostar em cavalos"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "uma\u017eotou",
-        "syllables": "u.ma.\u017eo.to.u",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "j\u00f3quei clube"
         ],
         "sample": []
     },
@@ -65684,8 +66001,8 @@
         "sample": []
     },
     {
-        "entry": "umsol\u017ei",
-        "syllables": "um.sol.\u017ei",
+        "entry": "umsolgi",
+        "syllables": "um.sol.gi",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -66014,8 +66331,8 @@
         "sample": []
     },
     {
-        "entry": "uro\u017ei",
-        "syllables": "u.ro.\u017ei",
+        "entry": "uroji",
+        "syllables": "u.ro.ji",
         "pos": "adjective",
         "origin": null,
         "originTerm": null,
@@ -66790,6 +67107,42 @@
         "sample": []
     },
     {
+        "entry": "uzme",
+        "syllables": "uz.me",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "cheiro",
+            "fragr\u00e2ncia",
+            "odor"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "uznano",
+        "syllables": "uz.na.no",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "conhecido"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "uzno",
+        "syllables": "uz.no",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "conhecimento",
+            "saber"
+        ],
+        "sample": []
+    },
+    {
         "entry": "uzo",
         "syllables": "u.zo",
         "pos": "noun",
@@ -67435,8 +67788,8 @@
         "sample": []
     },
     {
-        "entry": "veb\u017eib",
-        "syllables": "veb.\u017eib",
+        "entry": "vebjib",
+        "syllables": "veb.jib",
         "pos": "noun",
         "origin": null,
         "originTerm": null,
@@ -67578,6 +67931,17 @@
         "originTerm": null,
         "meaning": [
             "agress\u00e3o"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "velle\u00eesa",
+        "syllables": "vel.le\u00ee.sa",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "veleidade"
         ],
         "sample": []
     },
@@ -67994,8 +68358,8 @@
         "sample": []
     },
     {
-        "entry": "vibur\u017euci",
-        "syllables": "vi.bur.\u017eu.ci",
+        "entry": "viburjuci",
+        "syllables": "vi.bur.ju.ci",
         "pos": "adjective",
         "origin": null,
         "originTerm": null,
@@ -68358,8 +68722,8 @@
         "sample": []
     },
     {
-        "entry": "visa\u017euda",
-        "syllables": "vi.sa.\u017eu.da",
+        "entry": "visajuda",
+        "syllables": "vi.sa.ju.da",
         "pos": "verb",
         "origin": null,
         "originTerm": null,
@@ -69632,6 +69996,17 @@
         "sample": []
     },
     {
+        "entry": "yorube",
+        "syllables": "yo.ru.be",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "o anoitecer"
+        ],
+        "sample": []
+    },
+    {
         "entry": "yoru\u010dou",
         "syllables": "yo.ru.\u010do.u",
         "pos": "noun",
@@ -69889,6 +70264,17 @@
         "originTerm": null,
         "meaning": [
             "congelante"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "yuja",
+        "syllables": "yu.ja",
+        "pos": "noun",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "suco"
         ],
         "sample": []
     },
@@ -70203,17 +70589,6 @@
         "sample": []
     },
     {
-        "entry": "yu\u017ea",
-        "syllables": "yu.\u017ea",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "suco"
-        ],
-        "sample": []
-    },
-    {
         "entry": "yuzla",
         "syllables": "yuz.la",
         "pos": "noun",
@@ -70445,7 +70820,21 @@
         "origin": null,
         "originTerm": null,
         "meaning": [
-            "raio"
+            "raio",
+            "trava",
+            "tranca"
+        ],
+        "sample": []
+    },
+    {
+        "entry": "zarda",
+        "syllables": "zar.da",
+        "pos": "verb",
+        "origin": null,
+        "originTerm": null,
+        "meaning": [
+            "travar",
+            "trancar"
         ],
         "sample": []
     },
@@ -70901,64 +71290,6 @@
         "meaning": [
             "agarrar",
             "pegar"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "zme",
-        "syllables": "z.me",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "cheiro",
-            "fragr\u00e2ncia",
-            "odor"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "zmena",
-        "syllables": "z.me.na",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "modifica\u00e7\u00e3o"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "zmi",
-        "syllables": "z.mi",
-        "pos": "adjective",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "cheiroso"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "znano",
-        "syllables": "z.na.no",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "conhecido"
-        ],
-        "sample": []
-    },
-    {
-        "entry": "zno",
-        "syllables": "z.no",
-        "pos": "noun",
-        "origin": null,
-        "originTerm": null,
-        "meaning": [
-            "conhecimento",
-            "saber"
         ],
         "sample": []
     },
