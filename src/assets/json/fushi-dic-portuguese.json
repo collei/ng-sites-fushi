@@ -235,16 +235,10 @@
         "pos": "n.",
         "meanings": [
             "ago",
+            "barkum",
             "dakiso",
             "hugu",
             "napafsa"
-        ]
-    },
-    {
-        "entry": "abra\u00e7o",
-        "pos": "adj.",
-        "meanings": [
-            "barkum"
         ]
     },
     {
@@ -1290,7 +1284,7 @@
     },
     {
         "entry": "ainda assim",
-        "pos": "adj.",
+        "pos": "disc.m.",
         "meanings": [
             "asenni"
         ]
@@ -6427,7 +6421,7 @@
     },
     {
         "entry": "cafuzo",
-        "pos": "adj.",
+        "pos": "n.",
         "meanings": [
             "kafuzos"
         ]
@@ -7973,7 +7967,7 @@
     },
     {
         "entry": "c\u00e9us",
-        "pos": "adj.",
+        "pos": "n.",
         "meanings": [
             "\u0161amai"
         ]
@@ -21022,6 +21016,7 @@
         "pos": "n.",
         "meanings": [
             "baze",
+            "bazei",
             "ua\u010do"
         ]
     },
@@ -21029,7 +21024,6 @@
         "entry": "guarda",
         "pos": "adj.",
         "meanings": [
-            "bazei",
             "bazyai"
         ]
     },
@@ -22399,7 +22393,7 @@
     },
     {
         "entry": "\u00edndio",
-        "pos": "adj.",
+        "pos": "n.",
         "meanings": [
             "akos"
         ]
@@ -26135,7 +26129,7 @@
     },
     {
         "entry": "mameluco",
-        "pos": "adj.",
+        "pos": "n.",
         "meanings": [
             "melukos"
         ]
@@ -28472,13 +28466,6 @@
     },
     {
         "entry": "nascer",
-        "pos": "adj.",
-        "meanings": [
-            "boui"
-        ]
-    },
-    {
-        "entry": "nascer",
         "pos": "v.",
         "meanings": [
             "bouda"
@@ -28496,6 +28483,13 @@
         "pos": "v.",
         "meanings": [
             "asalida"
+        ]
+    },
+    {
+        "entry": "nascido",
+        "pos": "adj.",
+        "meanings": [
+            "boui"
         ]
     },
     {
@@ -31493,7 +31487,7 @@
     },
     {
         "entry": "pele-vermelha",
-        "pos": "adj.",
+        "pos": "n.",
         "meanings": [
             "akos"
         ]
@@ -33366,7 +33360,7 @@
     },
     {
         "entry": "posta-restante",
-        "pos": "adj.",
+        "pos": "n.",
         "meanings": [
             "postiresti"
         ]
@@ -37876,14 +37870,8 @@
         "entry": "seguro",
         "pos": "n.",
         "meanings": [
+            "bazei",
             "bazo"
-        ]
-    },
-    {
-        "entry": "seguro",
-        "pos": "adj.",
-        "meanings": [
-            "bazei"
         ]
     },
     {
@@ -43055,13 +43043,7 @@
         "entry": "vermelho",
         "pos": "n.",
         "meanings": [
-            "aka"
-        ]
-    },
-    {
-        "entry": "vermelho",
-        "pos": "adj.",
-        "meanings": [
+            "aka",
             "akos"
         ]
     },
