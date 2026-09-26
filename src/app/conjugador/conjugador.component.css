@@ -5,7 +5,10 @@
 td, th {
 	font-size: 125%;
 }
-.content { height: 80vh !important; }
+.content {
+	min-height: 20vh !important;
+	background-color: #fff !important;
+}
 .content .content-main {
 	width: 100%;
 	overflow-x: hidden !important;

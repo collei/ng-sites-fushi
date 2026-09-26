@@ -27,7 +27,5 @@
 .toolbar #twitter-logo:hover,
 .toolbar #youtube-logo:hover { opacity: 0.8; }
 .content { margin: 22px auto 32px; padding: 0 16px; }
-.fixed-left {
-	width: 520px; /* Set your desired fixed width */
-	flex: none;   /* Prevents flexbox from shrinking or growing */
-}
+.over-top { z-index: 10 !important; position: relative; }
+.over-bottom { z-index: 5 !important; position: relative; }
