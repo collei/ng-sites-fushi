@@ -60,7 +60,7 @@ export class ConjugarService {
 	private _conjugarVerbo(verbo : string) {
 		let tempos = ['imperfect','perfect'],
 			naturezas = ['indefinite','definite'],
-			pessoas = ['mi','ti','on','biz','tiz','onk'],
+			pessoas = ['mi','ti','on','biz','tiz','ok'],
 			vozes = ['active','medial','passive'],
 			harmonia = '',
 			vocalizado = true,
@@ -221,15 +221,12 @@ export class ConjugarService {
 			casos = ['nominative','accusative','genitive','dative','ablative','locative','instrumental','partitive','abessive','comitative','terminative'],
 			harmonia = this._detectarHarmonia(substantivo),
 			vocalizado = ('AaEeIiOoUu'.indexOf(substantivo.slice(-1)) >= 0),
-			vocalizado_acc = ('AaEeIiOoUuLlŁłRrSsŠšZzŽž'.indexOf(substantivo.slice(-1)) >= 0),
 			paradigmas = [],
-			elidir_consoante : boolean,
 			tabela: FormaNominal[] = [];
 
 		if (substantivo==='') return [];
 		
 		substantivo = substantivo.toLowerCase();
-		elidir_consoante = ['us','um','on'].includes(substantivo.slice(-2));
 
 		let noun_paradigm = this._paradigma.find((x:any) => x.type==='noun');
 		if (noun_paradigm) {
@@ -239,54 +236,36 @@ export class ConjugarService {
 		}
 
 		for (let c = 0; c < casos.length; c++) {
-			let para = paradigmas.find((x:any) => x.case===casos[c] && x.voweled==vocalizado),
-				substantivo_forma = substantivo,
-				substantivo_forma_plural = substantivo,
-				substantivo_forma_dual = substantivo,
-				substantivo_forma_trial = substantivo;
+			let plural_elidivo = ['um','on','us'].includes(substantivo.slice(-2)),
+				substantivo_numeros = ['singular','plural','dual','trial'],
+				substantivo_formas = [
+					substantivo,
+					this._pluralizar(substantivo, harmonia, false),
+					substantivo + '.' + (harmonia==='back' ? 'lar' : 'ler'),
+					substantivo + '.' + 'lir'
+				];
 
-			if ((c > 0) && elidir_consoante) {
-				substantivo_forma = substantivo.substring(0, substantivo.length-1);
-				vocalizado_acc = true;
-				vocalizado = true;
+			for (let n = 0; n < substantivo_formas.length; n++) {
+				let substantivo_forma = substantivo_formas[n],
+					vocalizado = ('AaEeIiOoUu'.indexOf(substantivo_formas[n].slice(-1)) >= 0),
+					vocalizado_acc = ('AaEeIiOoUuLlŁłRrSsŠšZzŽž'.indexOf(substantivo_formas[n].slice(-1)) >= 0);
+
+				let para = paradigmas.find((x:any) => x.case===casos[c] && x.voweled==vocalizado);
+
+				if (0 === n || ((1 === n) && plural_elidivo)) {
+					substantivo_forma += '.';
+				}
+
+				substantivo_forma = substantivo_forma + '.' + (('accusative'===casos[c] && vocalizado_acc) ? 't' : ('genitive'===casos[c] && vocalizado) ? 'n' : para.value[0]);
+
+				tabela.push({
+					caso: casos[c],
+					numero: substantivo_numeros[n],
+					pessoa: '',
+					forma: (substantivo_forma+'.').replaceAll('.',''),
+					formaDetalhada: (substantivo_forma+'.').split('.')
+				} as FormaNominal);
 			}
-
-			substantivo_forma = substantivo_forma + '.' + (('accusative'===casos[c] && vocalizado_acc) ? 't' : ('genitive'===casos[c] && vocalizado) ? 'n' : para.value[0]);
-			substantivo_forma_plural = this._pluralizar(substantivo_forma, harmonia, 'nominative'!==casos[c]);
-			substantivo_forma_dual = substantivo_forma + '.' + (harmonia==='back' ? 'lar' : 'ler');
-			substantivo_forma_trial = substantivo_forma + '.' + 'lir';
-
-			tabela.push({
-				caso: casos[c],
-				numero: 'singular',
-				pessoa: '',
-				forma: (substantivo_forma+'.').replaceAll('.',''),
-				formaDetalhada: (substantivo_forma+'.').split('.')
-			} as FormaNominal);
-
-			tabela.push({
-				caso: casos[c],
-				numero: 'plural',
-				pessoa: '',
-				forma: substantivo_forma_plural.replaceAll('.',''),
-				formaDetalhada: substantivo_forma_plural.split('.')
-			} as FormaNominal);
-
-			tabela.push({
-				caso: casos[c],
-				numero: 'dual',
-				pessoa: '',
-				forma: substantivo_forma_dual.replaceAll('.',''),
-				formaDetalhada: substantivo_forma_dual.split('.')
-			} as FormaNominal);
-
-			tabela.push({
-				caso: casos[c],
-				numero: 'trial',
-				pessoa: '',
-				forma: substantivo_forma_trial.replaceAll('.',''),
-				formaDetalhada: substantivo_forma_trial.split('.')
-			} as FormaNominal);
 		}
 
 		vocalizado = ('AaEeIiOoUuLlŁłRrSsŠšZzŽž'.indexOf(substantivo.slice(-1)) >= 0);
@@ -355,14 +334,14 @@ export class ConjugarService {
 		//
 		switch (substantivo_dotless.slice(-2)) {
 			case 'us':
-				return substantivo_dotless.substring(0,substantivo_dotless.length-2) + '..i';
+				return substantivo_dotless.substring(0,substantivo_dotless.length-2) + 'i';
 			case 'um':
 			case 'on':
-				return substantivo_dotless.substring(0,substantivo_dotless.length-2) + '..a';
+				return substantivo_dotless.substring(0,substantivo_dotless.length-2) + 'a';
 			case 'ra':
-				return substantivo_dotless.substring(0,substantivo_dotless.length-2) + '..ri';
+				return substantivo_dotless.substring(0,substantivo_dotless.length-2) + 'ri';
 			case 'ri':
-				return substantivo + '.m';
+				return substantivo + 'm';
 			default:
 				return substantivo + (
 					('aeiou'.indexOf(substantivo_dotless.slice(-1)) >= 0)

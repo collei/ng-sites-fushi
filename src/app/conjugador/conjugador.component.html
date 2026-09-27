@@ -236,7 +236,7 @@
 						<tr *ngFor="let caso of getCasos()">
 							<td><b>{{ caso.nome }}</b></td>
 							<td *ngFor="let f of getDeclinacoes(caso.tipo, ['singular','plural'])">
-								<span class="detalhe-noun" *ngFor="let clas of ['stem','case','number']; index as ix">
+								<span class="detalhe-noun" *ngFor="let clas of ['stem','number','case']; index as ix">
 									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
 								</span>
 							</td>
@@ -255,7 +255,7 @@
 						<tr *ngFor="let caso of getCasos()">
 							<td><b>{{ caso.nome }}</b></td>
 							<td *ngFor="let f of getDeclinacoes(caso.tipo, ['dual','trial'])">
-								<span class="detalhe-noun" *ngFor="let clas of ['stem','case','number']; index as ix">
+								<span class="detalhe-noun" *ngFor="let clas of ['stem','number','case']; index as ix">
 									<span class="{{ clas }}" *ngIf="f.formaDetalhada[ix]!==''">{{ f.formaDetalhada[ix] }}</span>
 								</span>
 							</td>
