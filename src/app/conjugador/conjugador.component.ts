@@ -5,11 +5,11 @@ import { DataService } from '../data.service';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-conjugador',
-  standalone: true,
-  imports: [CommonModule, FormsModule],
-  templateUrl: './conjugador.component.html',
-  styleUrls: ['./conjugador.component.css']
+	selector: 'app-conjugador',
+	standalone: true,
+	imports: [CommonModule, FormsModule],
+	templateUrl: './conjugador.component.html',
+	styleUrls: ['./conjugador.component.css']
 })
 export class ConjugadorComponent implements OnInit, OnDestroy {
 	tabela : any = {
@@ -44,17 +44,17 @@ export class ConjugadorComponent implements OnInit, OnDestroy {
 
 	getCasos() {
 		return [
-			{ tipo: 'nominative', nome: 'Nominativo' },
-			{ tipo: 'accusative', nome: 'Acusativo' },
-			{ tipo: 'genitive', nome: 'Genitivo' },
-			{ tipo: 'dative', nome: 'Dativo' },
-			{ tipo: 'ablative', nome: 'Ablativo' },
-			{ tipo: 'locative', nome: 'Locativo' },
-			{ tipo: 'instrumental', nome: 'Instrumental' },
-			{ tipo: 'partitive', nome: 'Partitivo' },
-			{ tipo: 'abessive', nome: 'Abessivo' },
-			{ tipo: 'comitative', nome: 'Comitativo' },
-			{ tipo: 'terminative', nome: 'Terminativo' }
+			{ tipo: 'nominative', nome: 'Nom.' },
+			{ tipo: 'accusative', nome: 'Ac.' },
+			{ tipo: 'genitive', nome: 'Gen.' },
+			{ tipo: 'dative', nome: 'Dat.' },
+			{ tipo: 'ablative', nome: 'Abl.' },
+			{ tipo: 'locative', nome: 'Loc.' },
+			{ tipo: 'instrumental', nome: 'Instr.' },
+			{ tipo: 'partitive', nome: 'Part.' },
+			{ tipo: 'abessive', nome: 'Abe.' },
+			{ tipo: 'comitative', nome: 'Com.' },
+			{ tipo: 'terminative', nome: 'Term.' }
 		];
 	}
 

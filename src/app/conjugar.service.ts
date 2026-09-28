@@ -236,7 +236,7 @@ export class ConjugarService {
 		}
 
 		for (let c = 0; c < casos.length; c++) {
-			let plural_elidivo = ['um','on','us'].includes(substantivo.slice(-2)),
+			let plural_elidivo = ['um','on','us','ra','ri'].includes(substantivo.slice(-2)),
 				substantivo_numeros = ['singular','plural','dual','trial'],
 				substantivo_formas = [
 					substantivo,
